@@ -1,0 +1,8 @@
+Instructions to reproduce the DCTCP experiment:
+
+Dependencies:
+- Ubuntu 12.04 with the DCTCP kernel (instructions on installing
+  the DCTCP kernel follow)
+- Latest Mininet code (URL)
+
+Instructions to install DCTCP kernel:
