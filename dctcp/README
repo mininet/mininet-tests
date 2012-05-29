@@ -6,3 +6,20 @@ Dependencies:
 - Latest Mininet code (URL)
 
 Instructions to install DCTCP kernel:
+
+- Download patch:
+    http://stanford.edu/~jvimal/mininet/0001-Patches-for-DCTCP-Data-Center-TCP-on-top-of-Linus-s-.patch
+
+- Apply to your kernel tree (>= 3.2):
+    cd /path/to/linux-src
+    patch -p1 < /path/to/patch
+
+- Enable DCTCP via `make menuconfig':
+  Networking support
+    ---> Networking options
+      ---> DCTCP: Data Center TCP
+
+- Compile and install kernel.  After you reboot, check if
+  DCTCP has been correctly installed:
+
+    sysctl -a | grep tcp_dctcp
