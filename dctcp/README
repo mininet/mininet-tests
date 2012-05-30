@@ -36,3 +36,9 @@ sudo reboot
   DCTCP has been correctly installed:
 
     sysctl -a | grep tcp_dctcp
+
+- Reconfigure openvswitch
+  sudo dpkg-reconfigure openvswitch-datapath-dkms
+
+- Check if Mininet is working fine (might require an extra reboot before this)
+  sudo mn --link tc,bw=10 --test iperf
