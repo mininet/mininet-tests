@@ -1,0 +1,493 @@
+From d1d54746d04be77b726cb927a5b879ef77f2cfc5 Mon Sep 17 00:00:00 2001
+From: Vimalkumar <j.vimal@gmail.com>
+Date: Tue, 15 May 2012 05:57:58 +0000
+Subject: [PATCH] Patches for DCTCP (Data Center TCP) on top of Linus's tree
+
+---
+ include/linux/sysctl.h     |    5 ++
+ include/linux/tcp.h        |   11 +++
+ include/net/tcp.h          |    5 ++
+ kernel/sysctl_binary.c     |    5 ++
+ net/ipv4/Kconfig           |    9 +++
+ net/ipv4/sysctl_net_ipv4.c |   23 ++++++
+ net/ipv4/tcp_input.c       |  174 +++++++++++++++++++++++++++++++++++++++++++-
+ net/ipv4/tcp_minisocks.c   |    7 ++
+ net/ipv4/tcp_output.c      |   29 ++++++++
+ 9 files changed, 267 insertions(+), 1 deletion(-)
+
+diff --git a/include/linux/sysctl.h b/include/linux/sysctl.h
+index c34b4c8..f693c1e 100644
+--- a/include/linux/sysctl.h
++++ b/include/linux/sysctl.h
+@@ -425,6 +425,11 @@ enum
+ 	NET_TCP_ALLOWED_CONG_CONTROL=123,
+ 	NET_TCP_MAX_SSTHRESH=124,
+ 	NET_TCP_FRTO_RESPONSE=125,
++#ifdef CONFIG_DCTCP
++	NET_TCP_DELAYED_ACK=126,
++	NET_TCP_DCTCP_ENABLE=127,
++	NET_TCP_DCTCP_SHIFT_G=128,
++#endif
+ };
+ 
+ enum {
+diff --git a/include/linux/tcp.h b/include/linux/tcp.h
+index b6c62d2..739e949 100644
+--- a/include/linux/tcp.h
++++ b/include/linux/tcp.h
+@@ -467,6 +467,17 @@ struct tcp_sock {
+ 	struct tcp_md5sig_info	__rcu *md5sig_info;
+ #endif
+ 
++#ifdef CONFIG_DCTCP
++	/* DCTCP Specific Parameters */
++	u32	acked_bytes_ecn;
++	u32	acked_bytes_total;
++	u32	prior_rcv_nxt;
++	u32	dctcp_alpha;
++	u32	next_seq;
++	u32	ce_state;	/* 0: last pkt was non-ce , 1: last pkt was ce */
++	u32	delayed_ack_reserved;
++#endif
++
+ 	/* When the cookie options are generated and exchanged, then this
+ 	 * object holds a reference to them (cookie_values->kref).  Also
+ 	 * contains related tcp_cookie_transactions fields.
+diff --git a/include/net/tcp.h b/include/net/tcp.h
+index f75a04d..69b8537 100644
+--- a/include/net/tcp.h
++++ b/include/net/tcp.h
+@@ -230,6 +230,11 @@ extern int sysctl_tcp_max_orphans;
+ extern int sysctl_tcp_fack;
+ extern int sysctl_tcp_reordering;
+ extern int sysctl_tcp_ecn;
++#ifdef CONFIG_DCTCP
++extern int sysctl_tcp_delayed_ack;
++extern int sysctl_tcp_dctcp_enable;
++extern int sysctl_tcp_dctcp_shift_g;
++#endif
+ extern int sysctl_tcp_dsack;
+ extern int sysctl_tcp_wmem[3];
+ extern int sysctl_tcp_rmem[3];
+diff --git a/kernel/sysctl_binary.c b/kernel/sysctl_binary.c
+index a650694..94aa94e 100644
+--- a/kernel/sysctl_binary.c
++++ b/kernel/sysctl_binary.c
+@@ -373,6 +373,11 @@ static const struct bin_table bin_net_ipv4_table[] = {
+ 	{ CTL_INT,	NET_TCP_FACK,				"tcp_fack" },
+ 	{ CTL_INT,	NET_TCP_REORDERING,			"tcp_reordering" },
+ 	{ CTL_INT,	NET_TCP_ECN,				"tcp_ecn" },
++#ifdef CONFIG_DCTCP
++	{ CTL_INT,	NET_TCP_DELAYED_ACK,			"tcp_delayed_ack" },
++	{ CTL_INT,	NET_TCP_DCTCP_ENABLE,			"tcp_dctcp_enable" },
++	{ CTL_INT,	NET_TCP_DCTCP_SHIFT_G,			"tcp_dctcp_shift_g" },
++#endif
+ 	{ CTL_INT,	NET_TCP_DSACK,				"tcp_dsack" },
+ 	{ CTL_INT,	NET_TCP_MEM,				"tcp_mem" },
+ 	{ CTL_INT,	NET_TCP_WMEM,				"tcp_wmem" },
+diff --git a/net/ipv4/Kconfig b/net/ipv4/Kconfig
+index d183262..1abf028 100644
+--- a/net/ipv4/Kconfig
++++ b/net/ipv4/Kconfig
+@@ -630,3 +630,12 @@ config TCP_MD5SIG
+ 	  on the Internet.
+ 
+ 	  If unsure, say N.
++
++config DCTCP
++	bool "DCTCP: Data Center TCP"
++	---help---
++	  DCTCP is an optimized version of TCP suitable for deployment in
++	  Data Centers that have ECN support from switches.  For more information
++	  please check the SIGCOMM paper.
++
++	  If unsure, say N.
+diff --git a/net/ipv4/sysctl_net_ipv4.c b/net/ipv4/sysctl_net_ipv4.c
+index 7a7724d..ca8a06d 100644
+--- a/net/ipv4/sysctl_net_ipv4.c
++++ b/net/ipv4/sysctl_net_ipv4.c
+@@ -470,6 +470,29 @@ static struct ctl_table ipv4_table[] = {
+ 		.mode		= 0644,
+ 		.proc_handler	= proc_dointvec
+ 	},
++#ifdef CONFIG_DCTCP
++	{
++		.procname	= "tcp_delayed_ack",
++		.data		= &sysctl_tcp_delayed_ack,
++		.maxlen		= sizeof(int),
++		.mode		= 0644,
++		.proc_handler	= proc_dointvec
++	},
++	{
++		.procname	= "tcp_dctcp_enable",
++		.data		= &sysctl_tcp_dctcp_enable,
++		.maxlen		= sizeof(int),
++		.mode		= 0644,
++		.proc_handler	= proc_dointvec
++	},
++	{
++		.procname	= "tcp_dctcp_shift_g",
++		.data		= &sysctl_tcp_dctcp_shift_g,
++		.maxlen		= sizeof(int),
++		.mode		= 0644,
++		.proc_handler	= proc_dointvec
++	},
++#endif
+ 	{
+ 		.procname	= "tcp_dsack",
+ 		.data		= &sysctl_tcp_dsack,
+diff --git a/net/ipv4/tcp_input.c b/net/ipv4/tcp_input.c
+index 257b617..7390d13 100644
+--- a/net/ipv4/tcp_input.c
++++ b/net/ipv4/tcp_input.c
+@@ -100,6 +100,17 @@ int sysctl_tcp_thin_dupack __read_mostly;
+ int sysctl_tcp_moderate_rcvbuf __read_mostly = 1;
+ int sysctl_tcp_abc __read_mostly;
+ 
++#ifdef CONFIG_DCTCP
++int sysctl_tcp_delayed_ack __read_mostly = 1;
++EXPORT_SYMBOL(sysctl_tcp_delayed_ack);
++
++int sysctl_tcp_dctcp_enable __read_mostly;
++EXPORT_SYMBOL(sysctl_tcp_dctcp_enable);
++
++int sysctl_tcp_dctcp_shift_g  __read_mostly = 4; /* g=1/2^4 */
++EXPORT_SYMBOL(sysctl_tcp_dctcp_shift_g);
++#endif
++
+ #define FLAG_DATA		0x01 /* Incoming frame contained data.		*/
+ #define FLAG_WIN_UPDATE		0x02 /* Incoming ACK was a window update.	*/
+ #define FLAG_DATA_ACKED		0x04 /* This ACK acknowledged new data.		*/
+@@ -218,6 +229,7 @@ static inline void TCP_ECN_withdraw_cwr(struct tcp_sock *tp)
+ 	tp->ecn_flags &= ~TCP_ECN_DEMAND_CWR;
+ }
+ 
++#ifndef CONFIG_DCTCP
+ static inline void TCP_ECN_check_ce(struct tcp_sock *tp, const struct sk_buff *skb)
+ {
+ 	if (!(tp->ecn_flags & TCP_ECN_OK))
+@@ -239,6 +251,73 @@ static inline void TCP_ECN_check_ce(struct tcp_sock *tp, const struct sk_buff *s
+ 		tp->ecn_flags |= TCP_ECN_SEEN;
+ 	}
+ }
++#else
++static inline void TCP_ECN_dctcp_check_ce(struct sock *sk, struct tcp_sock *tp, struct sk_buff *skb) {
++	u32 temp_rcv_nxt;
++	if (!(tp->ecn_flags & TCP_ECN_OK))
++		return;
++
++	if (INET_ECN_is_ce(TCP_SKB_CB(skb)->tcp_flags))
++		tp->ecn_flags |= TCP_ECN_DEMAND_CWR;
++	/* Funny extension: if ECT is not set on a segment,
++	 * it is surely retransmit. It is not in ECN RFC,
++	 * but Linux follows this rule. */
++	else if (INET_ECN_is_not_ect((TCP_SKB_CB(skb)->tcp_flags)))
++		tcp_enter_quickack_mode((struct sock *)tp);
++
++	if (INET_ECN_is_ce(TCP_SKB_CB(skb)->tcp_flags)) {
++		/* rcv_nxt is already update in previous process (tcp_rcv_established) */
++		if(sysctl_tcp_dctcp_enable) {
++			/* state has changed from CE=0 to CE=1 && delayed ack has not sent yet */
++			if(tp->ce_state == 0 && tp->delayed_ack_reserved) {
++				/* save current rcv_nxt */
++				temp_rcv_nxt = tp->rcv_nxt;
++				/* generate previous ack with CE=0 */
++				tp->ecn_flags &= ~TCP_ECN_DEMAND_CWR;
++				tp->rcv_nxt = tp->prior_rcv_nxt;
++				/* printk("CE=0 rcv_nxt= %u nxt= %u\n",tp->rcv_nxt, temp_rcv_nxt);  */
++				tcp_send_ack(sk);
++				/* recover current rcv_nxt */
++				tp->rcv_nxt = temp_rcv_nxt;
++			}
++
++			tp->ce_state = 1;
++		}
++
++		tp->ecn_flags |= TCP_ECN_DEMAND_CWR;
++
++		/* Funny extension: if ECT is not set on a segment,
++		 * it is surely retransmit. It is not in ECN RFC,
++		 * but Linux follows this rule. */
++	} else if (INET_ECN_is_not_ect((TCP_SKB_CB(skb)->tcp_flags))) {
++		tcp_enter_quickack_mode((struct sock *)tp);
++	} else {
++		/* It has ECT but it doesn't have CE */
++		if(sysctl_tcp_dctcp_enable) {
++			if(tp->ce_state != 0 && tp->delayed_ack_reserved) {
++				/* save current rcv_nxt */
++				temp_rcv_nxt = tp->rcv_nxt;
++				/* generate previous ack with CE=1 */
++				tp->ecn_flags |= TCP_ECN_DEMAND_CWR;
++				tp->rcv_nxt = tp->prior_rcv_nxt;
++				/* printk("CE=1 rcv_nxt= %u nxt= %u\n",tp->rcv_nxt, temp_rcv_nxt);  */
++				tcp_send_ack(sk);
++				/* recover current rcv_nxt */
++				tp->rcv_nxt = temp_rcv_nxt;
++			}
++
++			tp->ce_state = 0;
++
++			/* deassert only when DCTCP is enabled */
++			tp->ecn_flags &= ~TCP_ECN_DEMAND_CWR;
++		}
++
++	}
++
++	/* set current rcv_nxt to prior_rcv_nxt */
++	tp->prior_rcv_nxt = tp->rcv_nxt;
++}
++#endif
+ 
+ static inline void TCP_ECN_rcv_synack(struct tcp_sock *tp, const struct tcphdr *th)
+ {
+@@ -598,6 +677,9 @@ static void tcp_event_data_recv(struct sock *sk, struct sk_buff *skb)
+ 		 */
+ 		tcp_incr_quickack(sk);
+ 		icsk->icsk_ack.ato = TCP_ATO_MIN;
++#ifdef CONFIG_DCTCP
++		tp->ce_state = 0;
++#endif
+ 	} else {
+ 		int m = now - icsk->icsk_ack.lrcvtime;
+ 
+@@ -618,7 +700,11 @@ static void tcp_event_data_recv(struct sock *sk, struct sk_buff *skb)
+ 	}
+ 	icsk->icsk_ack.lrcvtime = now;
+ 
++#ifndef CONFIG_DCTCP
+ 	TCP_ECN_check_ce(tp, skb);
++#else
++	TCP_ECN_dctcp_check_ce(sk, tp, skb);
++#endif
+ 
+ 	if (skb->len >= 128)
+ 		tcp_grow_window(sk, skb);
+@@ -844,14 +930,41 @@ void tcp_enter_cwr(struct sock *sk, const int set_ssthresh)
+ 	struct tcp_sock *tp = tcp_sk(sk);
+ 	const struct inet_connection_sock *icsk = inet_csk(sk);
+ 
++#ifdef CONFIG_DCTCP
++	__u32 ssthresh_old;
++	__u32 cwnd_old;
++	__u32 cwnd_new;
++#endif
++
+ 	tp->prior_ssthresh = 0;
+ 	tp->bytes_acked = 0;
+ 	if (icsk->icsk_ca_state < TCP_CA_CWR) {
+ 		tp->undo_marker = 0;
++
++#ifndef CONFIG_DCTCP
+ 		if (set_ssthresh)
+ 			tp->snd_ssthresh = icsk->icsk_ca_ops->ssthresh(sk);
+ 		tp->snd_cwnd = min(tp->snd_cwnd,
+ 				   tcp_packets_in_flight(tp) + 1U);
++#else
++		if(!sysctl_tcp_dctcp_enable) {
++			if (set_ssthresh)
++				tp->snd_ssthresh = icsk->icsk_ca_ops->ssthresh(sk);
++			tp->snd_cwnd = min(tp->snd_cwnd,
++					tcp_packets_in_flight(tp) + 1U);
++
++		} else {
++			cwnd_new = max (tp->snd_cwnd - ((tp->snd_cwnd * tp->dctcp_alpha)>>11) , 2U);
++			if(set_ssthresh) {
++				ssthresh_old = tp->snd_ssthresh;
++				tp->snd_ssthresh =  cwnd_new;
++			}
++
++			cwnd_old = tp->snd_cwnd;
++			tp->snd_cwnd = cwnd_new;
++		}
++#endif
++
+ 		tp->snd_cwnd_cnt = 0;
+ 		tp->high_seq = tp->snd_nxt;
+ 		tp->snd_cwnd_stamp = tcp_time_stamp;
+@@ -2911,7 +3024,10 @@ static void tcp_try_to_open(struct sock *sk, int flag)
+ 		if (inet_csk(sk)->icsk_ca_state != TCP_CA_Open)
+ 			tcp_moderate_cwnd(tp);
+ 	} else {
+-		tcp_cwnd_down(sk, flag);
++#ifdef CONFIG_DCTCP
++		if(!sysctl_tcp_dctcp_enable)
++#endif
++			tcp_cwnd_down(sk, flag);
+ 	}
+ }
+ 
+@@ -3698,6 +3814,11 @@ static int tcp_ack(struct sock *sk, const struct sk_buff *skb, int flag)
+ 	int newly_acked_sacked = 0;
+ 	int frto_cwnd = 0;
+ 
++#ifdef CONFIG_DCTCP
++	__u32 alpha_old;
++	__u32 acked_bytes;
++#endif
++
+ 	/* If the ack is older than previous acks
+ 	 * then we can probably ignore it.
+ 	 */
+@@ -3754,6 +3875,49 @@ static int tcp_ack(struct sock *sk, const struct sk_buff *skb, int flag)
+ 		tcp_ca_event(sk, CA_EVENT_SLOW_ACK);
+ 	}
+ 
++#ifdef CONFIG_DCTCP
++	/* START: DCTCP Processing */
++	/* Calculate acked bytes */
++	if(after(ack, prior_snd_una)) {
++		acked_bytes = ack - prior_snd_una;
++	} else {
++		if(flag & FLAG_WIN_UPDATE) {
++			/* Don't count when it is Window Updated ACK */
++			acked_bytes = 0;
++		}else {
++			/* Count duplicate ACKs for Retransmission packets and so on as MSS size */
++			acked_bytes = inet_csk(sk)->icsk_ack.rcv_mss;
++		}
++	}
++
++	if(flag & FLAG_ECE)
++		tp->acked_bytes_ecn += acked_bytes;
++
++	tp->acked_bytes_total += acked_bytes;
++
++	/* Expired RTT */
++	if (!before(tp->snd_una,tp->next_seq)) {
++		/* For avoiding denominator == 1 */
++		if(tp->acked_bytes_total == 0)
++			tp->acked_bytes_total = 1;
++
++		alpha_old = tp->dctcp_alpha;
++
++		/* alpha = (1-g) * alpha + g * F */
++		tp->dctcp_alpha = alpha_old - (alpha_old >> sysctl_tcp_dctcp_shift_g)
++			+ (tp->acked_bytes_ecn << (10 - sysctl_tcp_dctcp_shift_g)) / tp->acked_bytes_total;
++
++		if(tp->dctcp_alpha > 1024)
++			tp->dctcp_alpha = 1024; /* round to 0-1024 */
++
++		tp->acked_bytes_ecn = 0;
++		tp->acked_bytes_total = 0;
++		tp->next_seq = tp->snd_nxt;
++	}
++
++	/* END: DCTCP Processing */
++#endif
++
+ 	/* We passed data and got it acked, remove any soft error
+ 	 * log. Something worked...
+ 	 */
+@@ -4459,7 +4623,11 @@ static void tcp_data_queue_ofo(struct sock *sk, struct sk_buff *skb)
+ 	struct sk_buff *skb1;
+ 	u32 seq, end_seq;
+ 
++#ifndef CONFIG_DCTCP
+ 	TCP_ECN_check_ce(tp, skb);
++#else
++	TCP_ECN_dctcp_check_ce(sk, tp, skb);
++#endif
+ 
+ 	if (tcp_try_rmem_schedule(sk, skb->truesize)) {
+ 		/* TODO: should increment a counter */
+@@ -5054,6 +5222,10 @@ static void __tcp_ack_snd_check(struct sock *sk, int ofo_possible)
+ 	     __tcp_select_window(sk) >= tp->rcv_wnd) ||
+ 	    /* We ACK each frame or... */
+ 	    tcp_in_quickack_mode(sk) ||
++#ifdef CONFIG_DCTCP
++	    /* Delayed ACK is disabled or ... */
++	    sysctl_tcp_delayed_ack == 0 ||
++#endif
+ 	    /* We have out of order data. */
+ 	    (ofo_possible && skb_peek(&tp->out_of_order_queue))) {
+ 		/* Then ack it now */
+diff --git a/net/ipv4/tcp_minisocks.c b/net/ipv4/tcp_minisocks.c
+index 3cabafb..fe607a6 100644
+--- a/net/ipv4/tcp_minisocks.c
++++ b/net/ipv4/tcp_minisocks.c
+@@ -469,6 +469,13 @@ struct sock *tcp_create_openreq_child(struct sock *sk, struct request_sock *req,
+ 		newtp->snd_nxt = newtp->snd_up =
+ 			treq->snt_isn + 1 + tcp_s_data_size(oldtp);
+ 
++#ifdef CONFIG_DCTCP
++		/* Initialize DCTCP internal parameters */
++		newtp->next_seq = newtp->snd_nxt;
++		newtp->acked_bytes_ecn = 0;
++		newtp->acked_bytes_total = 0;
++#endif
++
+ 		tcp_prequeue_init(newtp);
+ 
+ 		tcp_init_wl(newtp, treq->rcv_isn);
+diff --git a/net/ipv4/tcp_output.c b/net/ipv4/tcp_output.c
+index 7ac6423..7896d3c 100644
+--- a/net/ipv4/tcp_output.c
++++ b/net/ipv4/tcp_output.c
+@@ -308,7 +308,11 @@ static inline void TCP_ECN_send_syn(struct sock *sk, struct sk_buff *skb)
+ 	struct tcp_sock *tp = tcp_sk(sk);
+ 
+ 	tp->ecn_flags = 0;
++#ifndef CONFIG_DCTCP
+ 	if (sysctl_tcp_ecn == 1) {
++#else
++	if (sysctl_tcp_ecn == 1 || sysctl_tcp_dctcp_enable) {
++#endif
+ 		TCP_SKB_CB(skb)->tcp_flags |= TCPHDR_ECE | TCPHDR_CWR;
+ 		tp->ecn_flags = TCP_ECN_OK;
+ 	}
+@@ -880,6 +884,12 @@ static int tcp_transmit_skb(struct sock *sk, struct sk_buff *skb, int clone_it,
+ 	if (likely((tcb->tcp_flags & TCPHDR_SYN) == 0))
+ 		TCP_ECN_send(sk, skb, tcp_header_size);
+ 
++#ifdef CONFIG_DCTCP
++	/* In DCTCP, Assert ECT bit to all packets*/
++	if(sysctl_tcp_dctcp_enable)
++		INET_ECN_xmit(sk);
++#endif
++
+ #ifdef CONFIG_TCP_MD5SIG
+ 	/* Calculate the MD5 hash, as we have all we need now */
+ 	if (md5) {
+@@ -2646,6 +2656,13 @@ int tcp_connect(struct sock *sk)
+ 	tcp_init_nondata_skb(buff, tp->write_seq++, TCPHDR_SYN);
+ 	TCP_ECN_send_syn(sk, buff);
+ 
++#ifdef CONFIG_DCTCP
++	/* Initialize DCTCP internal parameters */
++	tp->next_seq = tp->snd_nxt;
++	tp->acked_bytes_ecn = 0;
++	tp->acked_bytes_total = 0;
++#endif
++
+ 	/* Send it off. */
+ 	TCP_SKB_CB(buff)->when = tcp_time_stamp;
+ 	tp->retrans_stamp = TCP_SKB_CB(buff)->when;
+@@ -2682,6 +2699,12 @@ void tcp_send_delayed_ack(struct sock *sk)
+ 	int ato = icsk->icsk_ack.ato;
+ 	unsigned long timeout;
+ 
++#ifdef CONFIG_DCTCP
++	/* Delayed ACK reserved flag for DCTCP */
++	struct tcp_sock *tp = tcp_sk(sk);
++	tp->delayed_ack_reserved = 1;
++#endif
++
+ 	if (ato > TCP_DELACK_MIN) {
+ 		const struct tcp_sock *tp = tcp_sk(sk);
+ 		int max_ato = HZ / 2;
+@@ -2733,6 +2756,12 @@ void tcp_send_ack(struct sock *sk)
+ {
+ 	struct sk_buff *buff;
+ 
++#ifdef CONFIG_DCTCP
++	/* Delayed ACK reserved flag for DCTCP */
++	struct tcp_sock *tp = tcp_sk(sk);
++	tp->delayed_ack_reserved = 0;
++#endif
++
+ 	/* If we have been reset, we may not send again. */
+ 	if (sk->sk_state == TCP_CLOSE)
+ 		return;
+-- 
+1.7.9.5
+

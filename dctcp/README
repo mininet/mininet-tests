@@ -1,25 +1,38 @@
 Instructions to reproduce the DCTCP experiment:
 
 Dependencies:
-- Ubuntu 12.04 with the DCTCP kernel (instructions on installing
-  the DCTCP kernel follow)
-- Latest Mininet code (URL)
+- Ubuntu 12.04 with the DCTCP kernel (instructions to install the DCTCP kernel follow)
+- Latest Mininet code (git://github.com/mininet/mininet.git, cs244 branch)
 
 Instructions to install DCTCP kernel:
 
-- Download patch:
-    http://stanford.edu/~jvimal/mininet/0001-Patches-for-DCTCP-Data-Center-TCP-on-top-of-Linus-s-.patch
-
-- Apply to your kernel tree (>= 3.2):
-    cd /path/to/linux-src
-    patch -p1 < /path/to/patch
-
+cd /usr/src
+wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.2.18.tar.bz2
+tar -xjf linux-3.2.18.tar.bz2
+cd linux-3.2.18
+patch -p1 < /path/to/mininet_tests/dctcp/0001-Patches-for-DCTCP-Data-Center-TCP-on-top-of-Linus-s-.patch
+make menuconfig 
 - Enable DCTCP via `make menuconfig':
   Networking support
     ---> Networking options
       ---> DCTCP: Data Center TCP
 
-- Compile and install kernel.  After you reboot, check if
+processors=`grep -c ^processor /proc/cpuinfo`
+export CONCURRENCY_LEVEL=$processors
+make-kpkg clean
+time fakeroot make-kpkg --verbose --initrd --append-to-version=-dctcp
+kernel_image kernel_headers
+(this takes a while — run it in a screen if you are connected remotely)
+cd /usr/src
+sudo dpkg -i linux-image-3.2.18-dctcp_3.2.18-dctcp-10.00.Custom_amd64.deb
+sudo dpkg -i linux-headers-3.2.18-dctcp_3.2.18-dctcp-10.00.Custom_amd64.deb
+sudo update-grub2
+edit /etc/default/grub and change the "default" kernel
+sudo update-grub2
+verify /boot/grub/grub.cfg
+sudo reboot
+
+- After you reboot, check if
   DCTCP has been correctly installed:
 
     sysctl -a | grep tcp_dctcp
