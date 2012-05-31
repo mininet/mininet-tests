@@ -118,7 +118,7 @@ class StarTopo(Topo):
         # Host and link configuration
         hconfig = {'cpu': -1}
 	ldealay_config = {'bw': bw, 'delay': args.delay,
-			'max_queue_size': 1000000
+			'max_queue_size': 1000
 			} 
 	lconfig = {'bw': bw, 
 		   'max_queue_size': int(args.maxq),
@@ -201,7 +201,7 @@ def main():
     monitor.start()
     monitors.append(monitor)
 
-    monitor = multiprocessing.Process(target=monitor_qlen, args=('s1-eth1', 1.01, '%s/qlen_s1-eth1.txt' % (args.dir)))
+    monitor = multiprocessing.Process(target=monitor_qlen, args=('s1-eth1', 0.01, '%s/qlen_s1-eth1.txt' % (args.dir)))
     monitor.start()
     monitors.append(monitor)
 
@@ -220,7 +220,8 @@ def main():
         h = net.getNodeByName(node_name)
         h.sendCmd(cmd)
 
-    net.getNodeByName('h2').popen('/bin/ping 10.0.0.1 > %s/ping.txt' % args.dir)
+    net.getNodeByName('h2').popen('/bin/ping 10.0.0.1 > %s/ping.txt' % args.dir,
+	    shell=True)
     progress(seconds)
     for monitor in monitors:
         monitor.terminate()
