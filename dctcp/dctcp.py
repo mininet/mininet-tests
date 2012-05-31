@@ -97,7 +97,7 @@ args.n = int(args.n)
 args.bw = float(args.bw)
 if args.speedup_bw == -1:
     args.speedup_bw = args.bw
-args.n = max(args.n, 3)
+args.n = max(args.n, 2)
 
 if not os.path.exists(args.dir):
     os.makedirs(args.dir)
@@ -117,7 +117,7 @@ class StarTopo(Topo):
 
         # Host and link configuration
         hconfig = {'cpu': -1}
-	ldealay_config = {'bw': bw, 'delay': args.delay,
+	ldealay_config = {'bw': bw+10, 'delay': args.delay,
 			'max_queue_size': 1000
 			} 
 	lconfig = {'bw': bw, 

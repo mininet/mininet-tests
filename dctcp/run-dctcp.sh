@@ -1,7 +1,7 @@
 #!/bin/bash
 
 bw=100
-t=30
+t=300
 n=3
 
 function tcp {
