@@ -40,6 +40,9 @@ for n in 1 2 3 4 5; do
     sudo python ../util/plot_tcpprobe.py \
         -f $dir/tcp_probe.txt \
         -o $dir/cwnd.png
+    sudo python ../util/plot_queue.py \
+	-f $dir/qlen_s1-eth1.txt \
+	-o $dir/qlen.png
 done
 
 echo "Started at" $start
