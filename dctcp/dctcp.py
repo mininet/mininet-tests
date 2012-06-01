@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import sys
-
 sys.path = ['../'] + sys.path
 
 from mininet.topo import Topo
@@ -117,8 +116,8 @@ class StarTopo(Topo):
 
         # Host and link configuration
         hconfig = {'cpu': -1}
-	ldealay_config = {'bw': bw+10, 'delay': args.delay,
-			'max_queue_size': 1000
+	ldealay_config = {'bw': bw, 'delay': args.delay,
+			'max_queue_size': 1000000
 			} 
 	lconfig = {'bw': bw, 
 		   'max_queue_size': int(args.maxq),
