@@ -1,7 +1,7 @@
-From d1d54746d04be77b726cb927a5b879ef77f2cfc5 Mon Sep 17 00:00:00 2001
+From 658860d000bc0fd95476f0a73cebb124ad4578cc Mon Sep 17 00:00:00 2001
 From: Vimalkumar <j.vimal@gmail.com>
-Date: Tue, 15 May 2012 05:57:58 +0000
-Subject: [PATCH] Patches for DCTCP (Data Center TCP) on top of Linus's tree
+Date: Fri, 1 Jun 2012 22:21:05 -0700
+Subject: [PATCH] Updated DCTCP patch for 3.2+ kernels.
 
 ---
  include/linux/sysctl.h     |    5 ++
@@ -10,10 +10,10 @@ Subject: [PATCH] Patches for DCTCP (Data Center TCP) on top of Linus's tree
  kernel/sysctl_binary.c     |    5 ++
  net/ipv4/Kconfig           |    9 +++
  net/ipv4/sysctl_net_ipv4.c |   23 ++++++
- net/ipv4/tcp_input.c       |  174 +++++++++++++++++++++++++++++++++++++++++++-
+ net/ipv4/tcp_input.c       |  170 +++++++++++++++++++++++++++++++++++++++++++-
  net/ipv4/tcp_minisocks.c   |    7 ++
  net/ipv4/tcp_output.c      |   29 ++++++++
- 9 files changed, 267 insertions(+), 1 deletion(-)
+ 9 files changed, 263 insertions(+), 1 deletions(-)
 
 diff --git a/include/linux/sysctl.h b/include/linux/sysctl.h
 index c34b4c8..f693c1e 100644
@@ -137,7 +137,7 @@ index 7a7724d..ca8a06d 100644
  		.procname	= "tcp_dsack",
  		.data		= &sysctl_tcp_dsack,
 diff --git a/net/ipv4/tcp_input.c b/net/ipv4/tcp_input.c
-index 257b617..7390d13 100644
+index 257b617..1c82b96 100644
 --- a/net/ipv4/tcp_input.c
 +++ b/net/ipv4/tcp_input.c
 @@ -100,6 +100,17 @@ int sysctl_tcp_thin_dupack __read_mostly;
@@ -166,25 +166,21 @@ index 257b617..7390d13 100644
  static inline void TCP_ECN_check_ce(struct tcp_sock *tp, const struct sk_buff *skb)
  {
  	if (!(tp->ecn_flags & TCP_ECN_OK))
-@@ -239,6 +251,73 @@ static inline void TCP_ECN_check_ce(struct tcp_sock *tp, const struct sk_buff *s
+@@ -239,6 +251,69 @@ static inline void TCP_ECN_check_ce(struct tcp_sock *tp, const struct sk_buff *s
  		tp->ecn_flags |= TCP_ECN_SEEN;
  	}
  }
 +#else
 +static inline void TCP_ECN_dctcp_check_ce(struct sock *sk, struct tcp_sock *tp, struct sk_buff *skb) {
 +	u32 temp_rcv_nxt;
++	u8 ecn_flags;
++
 +	if (!(tp->ecn_flags & TCP_ECN_OK))
 +		return;
 +
-+	if (INET_ECN_is_ce(TCP_SKB_CB(skb)->tcp_flags))
-+		tp->ecn_flags |= TCP_ECN_DEMAND_CWR;
-+	/* Funny extension: if ECT is not set on a segment,
-+	 * it is surely retransmit. It is not in ECN RFC,
-+	 * but Linux follows this rule. */
-+	else if (INET_ECN_is_not_ect((TCP_SKB_CB(skb)->tcp_flags)))
-+		tcp_enter_quickack_mode((struct sock *)tp);
++	ecn_flags = TCP_SKB_CB(skb)->ip_dsfield & INET_ECN_MASK;
 +
-+	if (INET_ECN_is_ce(TCP_SKB_CB(skb)->tcp_flags)) {
++	if (ecn_flags == INET_ECN_CE) {
 +		/* rcv_nxt is already update in previous process (tcp_rcv_established) */
 +		if(sysctl_tcp_dctcp_enable) {
 +			/* state has changed from CE=0 to CE=1 && delayed ack has not sent yet */
@@ -208,7 +204,7 @@ index 257b617..7390d13 100644
 +		/* Funny extension: if ECT is not set on a segment,
 +		 * it is surely retransmit. It is not in ECN RFC,
 +		 * but Linux follows this rule. */
-+	} else if (INET_ECN_is_not_ect((TCP_SKB_CB(skb)->tcp_flags))) {
++	} else if (ecn_flags == INET_ECN_NOT_ECT) {
 +		tcp_enter_quickack_mode((struct sock *)tp);
 +	} else {
 +		/* It has ECT but it doesn't have CE */
@@ -240,7 +236,7 @@ index 257b617..7390d13 100644
  
  static inline void TCP_ECN_rcv_synack(struct tcp_sock *tp, const struct tcphdr *th)
  {
-@@ -598,6 +677,9 @@ static void tcp_event_data_recv(struct sock *sk, struct sk_buff *skb)
+@@ -598,6 +673,9 @@ static void tcp_event_data_recv(struct sock *sk, struct sk_buff *skb)
  		 */
  		tcp_incr_quickack(sk);
  		icsk->icsk_ack.ato = TCP_ATO_MIN;
@@ -250,7 +246,7 @@ index 257b617..7390d13 100644
  	} else {
  		int m = now - icsk->icsk_ack.lrcvtime;
  
-@@ -618,7 +700,11 @@ static void tcp_event_data_recv(struct sock *sk, struct sk_buff *skb)
+@@ -618,7 +696,11 @@ static void tcp_event_data_recv(struct sock *sk, struct sk_buff *skb)
  	}
  	icsk->icsk_ack.lrcvtime = now;
  
@@ -262,7 +258,7 @@ index 257b617..7390d13 100644
  
  	if (skb->len >= 128)
  		tcp_grow_window(sk, skb);
-@@ -844,14 +930,41 @@ void tcp_enter_cwr(struct sock *sk, const int set_ssthresh)
+@@ -844,14 +926,41 @@ void tcp_enter_cwr(struct sock *sk, const int set_ssthresh)
  	struct tcp_sock *tp = tcp_sk(sk);
  	const struct inet_connection_sock *icsk = inet_csk(sk);
  
@@ -304,7 +300,7 @@ index 257b617..7390d13 100644
  		tp->snd_cwnd_cnt = 0;
  		tp->high_seq = tp->snd_nxt;
  		tp->snd_cwnd_stamp = tcp_time_stamp;
-@@ -2911,7 +3024,10 @@ static void tcp_try_to_open(struct sock *sk, int flag)
+@@ -2911,7 +3020,10 @@ static void tcp_try_to_open(struct sock *sk, int flag)
  		if (inet_csk(sk)->icsk_ca_state != TCP_CA_Open)
  			tcp_moderate_cwnd(tp);
  	} else {
@@ -316,7 +312,7 @@ index 257b617..7390d13 100644
  	}
  }
  
-@@ -3698,6 +3814,11 @@ static int tcp_ack(struct sock *sk, const struct sk_buff *skb, int flag)
+@@ -3698,6 +3810,11 @@ static int tcp_ack(struct sock *sk, const struct sk_buff *skb, int flag)
  	int newly_acked_sacked = 0;
  	int frto_cwnd = 0;
  
@@ -328,7 +324,7 @@ index 257b617..7390d13 100644
  	/* If the ack is older than previous acks
  	 * then we can probably ignore it.
  	 */
-@@ -3754,6 +3875,49 @@ static int tcp_ack(struct sock *sk, const struct sk_buff *skb, int flag)
+@@ -3754,6 +3871,49 @@ static int tcp_ack(struct sock *sk, const struct sk_buff *skb, int flag)
  		tcp_ca_event(sk, CA_EVENT_SLOW_ACK);
  	}
  
@@ -378,7 +374,7 @@ index 257b617..7390d13 100644
  	/* We passed data and got it acked, remove any soft error
  	 * log. Something worked...
  	 */
-@@ -4459,7 +4623,11 @@ static void tcp_data_queue_ofo(struct sock *sk, struct sk_buff *skb)
+@@ -4459,7 +4619,11 @@ static void tcp_data_queue_ofo(struct sock *sk, struct sk_buff *skb)
  	struct sk_buff *skb1;
  	u32 seq, end_seq;
  
@@ -390,7 +386,7 @@ index 257b617..7390d13 100644
  
  	if (tcp_try_rmem_schedule(sk, skb->truesize)) {
  		/* TODO: should increment a counter */
-@@ -5054,6 +5222,10 @@ static void __tcp_ack_snd_check(struct sock *sk, int ofo_possible)
+@@ -5054,6 +5218,10 @@ static void __tcp_ack_snd_check(struct sock *sk, int ofo_possible)
  	     __tcp_select_window(sk) >= tp->rcv_wnd) ||
  	    /* We ACK each frame or... */
  	    tcp_in_quickack_mode(sk) ||
@@ -489,5 +485,5 @@ index 7ac6423..7896d3c 100644
  	if (sk->sk_state == TCP_CLOSE)
  		return;
 -- 
-1.7.9.5
+1.7.5.3
 

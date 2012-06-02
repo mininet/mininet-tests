@@ -10,7 +10,7 @@ cd /usr/src
 wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.2.18.tar.bz2
 tar -xjf linux-3.2.18.tar.bz2
 cd linux-3.2.18
-patch -p1 < /path/to/mininet_tests/dctcp/0001-Patches-for-DCTCP-Data-Center-TCP-on-top-of-Linus-s-.patch
+patch -p1 < /path/to/mininet_tests/dctcp/0001-Updated-DCTCP-patch-for-3.2-kernels.patch
 make menuconfig 
 - Enable DCTCP via `make menuconfig':
   Networking support
