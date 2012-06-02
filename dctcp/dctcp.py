@@ -119,7 +119,7 @@ class StarTopo(Topo):
 	ldealay_config = {'bw': bw, 'delay': args.delay,
 			'max_queue_size': 1000000
 			} 
-	lconfig = {'bw': bw, 
+	lconfig = {'bw': bw,
 		   'max_queue_size': int(args.maxq),
 		   'enable_ecn': args.ecn or args.dctcp,
 		   'use_hfsc': args.use_hfsc,
@@ -181,7 +181,8 @@ def main():
     if args.dctcp:
         enable_dctcp()
     topo = StarTopo(n=args.n, bw=args.bw)
-    net = Mininet(topo=topo, host=CPULimitedHost, link=TCLink, switch=Switch)
+    net = Mininet(topo=topo, host=CPULimitedHost, link=TCLink, switch=Switch,
+	    autoStaticArp=True)
     net.start()
 
     h1 = net.getNodeByName('h1')
@@ -221,6 +222,11 @@ def main():
 
     net.getNodeByName('h2').popen('/bin/ping 10.0.0.1 > %s/ping.txt' % args.dir,
 	    shell=True)
+    for i in xrange(args.n):
+        node_name = 'h%d' % (i+1)
+	net.getNodeByName(node_name).popen('tcpdump -ni %s-eth0 -s0 -w \
+		%s/%s_tcpdump.pcap' % (node_name, args.dir, node_name), 
+		shell=True)
     progress(seconds)
     for monitor in monitors:
         monitor.terminate()
