@@ -1,0 +1,20 @@
+This directory contains:
+
+- 1Gbps and 100Mbps inter-dequeue time samples for DCTCP experiment.
+- A plotting script that reads N sample files and plots the percentage
+  deviation from expected (specified via --expected in microsec)
+
+Example invocation:
+
+	python link_dequeues.py -f 100mbps 1gbps --expected 120 12 --labels 100Mbps 1Gbps
+
+To generate the sample output files just use the tracing utilities.
+
+python /path/to/tracing/parse.py -f /path/to/mntrace \
+	--start 10 --end 13 \
+	--plots links \
+	--odir /path/to/plots \
+	--intf s1-eth1 \
+	--logscale \
+	--output_link_data /path/to/sample-output
+
