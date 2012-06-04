@@ -87,6 +87,12 @@ parser.add_argument('--use-bridge',
                     help="Use Linux Bridge as switch",
                     default=False)
 
+parser.add_argument('--tcpdump',
+                    dest="tcpdump",
+                    action="store_true",
+                    help="Run tcpdump on host interfaces",
+                    default=False)
+
 parser.add_argument('--delay',
         dest="delay",
         default="0.075ms  0.05ms distribution normal  ")
@@ -119,7 +125,7 @@ class StarTopo(Topo):
 	ldealay_config = {'bw': bw, 'delay': args.delay,
 			'max_queue_size': 1000000
 			} 
-	lconfig = {'bw': bw,
+	lconfig = {'bw': bw, 
 		   'max_queue_size': int(args.maxq),
 		   'enable_ecn': args.ecn or args.dctcp,
 		   'use_hfsc': args.use_hfsc,
@@ -222,11 +228,12 @@ def main():
 
     net.getNodeByName('h2').popen('/bin/ping 10.0.0.1 > %s/ping.txt' % args.dir,
 	    shell=True)
-    for i in xrange(args.n):
-        node_name = 'h%d' % (i+1)
-	net.getNodeByName(node_name).popen('tcpdump -ni %s-eth0 -s0 -w \
-		%s/%s_tcpdump.pcap' % (node_name, args.dir, node_name), 
-		shell=True)
+    if args.tcpdump:
+	for i in xrange(args.n):
+	    node_name = 'h%d' % (i+1)
+	    net.getNodeByName(node_name).popen('tcpdump -ni %s-eth0 -s0 -w \
+		    %s/%s_tcpdump.pcap' % (node_name, args.dir, node_name), 
+		    shell=True)
     progress(seconds)
     for monitor in monitors:
         monitor.terminate()
