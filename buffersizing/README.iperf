@@ -1,0 +1,26 @@
+This buffersizing binary search test requires an iperf that has
+been modified in two ways:
+
+* Larger SYN backlog (1024, instead of 2, to avoid dropped connections)
+
+* Wait a while before transmitting packets
+  Without this change, iperf quickly connects to the server and fills
+  the bottleneck queue, which causes subsequent SYNs to take longer to
+  complete.  This can be a pain when running the experiment.  This patch
+  is no perfect cure, but speeds things up a bit, by forcing iperf to
+  sleep for 5 seconds (arbitrary) before sending data.
+
+To apply the changes, download iperf-2.0.5.tar.gz from:
+
+  http://sourceforge.net/projects/iperf/
+
+To apply the patch:
+
+$ tar xzvf iperf-2.0.5.tar.gz
+$ cd iperf-2.0.5/src
+$ patch -p1 < iperf-2.0.5-wait-syn.patch
+$ cd ..
+$ (build the package)
+
+Alternatively, excecute build-patched-iperf.sh
+
