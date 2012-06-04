@@ -1,0 +1,3059 @@
+Monitoring queue port 1
+[!p[?3;4l[4l>[0m(B[?1h=[H[2J[?12l[?25h
+Welcome to minicom 2.5
+
+OPTIONS: I18n 
+Compiled on Feb 24 2011, 11:25:53.
+Port /dev/ttyS0
+
+Press CTRL-A Z for help on special keys
+
+
+BCM.0> Time: 1327650300 790845
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+BCM.0> Time: 1327650300 918826
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+BCM.0> Time: 1327650301 48796
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+BCM.0> Time: 1327650301 176795
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+BCM.0> Time: 1327650301 315779
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+BCM.0> Time: 1327650301 443810
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+BCM.0> Time: 1327650301 571836
+g op_queue_total_count_cell(0).ge1
+OP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650301 699832
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650301 827839
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650301 965864
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650302 93863
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650302 221836
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650302 349785
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650302 477781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650302 632525
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650302 760782
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0>Time: 1327650302 883721
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 22777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 150778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 279727
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 417752
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 545751
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 689755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 827780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650303 955780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 83777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 211775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0>Time: 1327650304 350748
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 478779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 606781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 734781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 862738
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650304 990778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 118777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 247675
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 392751
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 520794
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 648780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 776776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650305 904777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650306 32778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650306 160780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650306 288749
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650306 428780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=7: <Q_TOTAL_COUNT_CELL=7>
+[23;80H [24;1HBCM.0>Time: 1327650306 556752
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0x1a6: <Q_TOTAL_COUNT_CELL=0x1a6>
+[23;80H [24;1HBCM.0> Time: 1327650306 692780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650306 821778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650306 951781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650307 88789
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650307 217779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650307 347788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650307 476776
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650307 615778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650307 765780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650307 899777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650308 43749
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650308 173776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650308 302757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650308 453781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650308 582776
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650308 721754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650308 850751
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650308 980752
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650309 135752
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650309 264724
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650309 398778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650309 527779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650309 657782
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650309 804752
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650309 948778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0>Time: 1327650310 77778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc0: <Q_TOTAL_COUNT_CELL=0xc0>
+[23;80H [24;1HBCM.0> Time: 1327650310 207776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650310 351779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650310 499733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0>Time: 1327650310 628752
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650310 758777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650310 897779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650311 31783
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650311 172749
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650311 301753
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650311 431779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650311 560781
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650311 690778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf9: <Q_TOTAL_COUNT_CELL=0xf9>
+[23;80H [24;1HBCM.0>Time: 1327650311 819784
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650311 956749
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650312 85778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650312 229781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650312 363780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650312 492779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650312 637752
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf4: <Q_TOTAL_COUNT_CELL=0xf4>
+[23;80H [24;1HBCM.0>Time: 1327650312 766776
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc6: <Q_TOTAL_COUNT_CELL=0xc6>
+[23;80H [24;1HBCM.0>Time: 1327650312 903752
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650313 41754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650313 170781
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650313 300782
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650313 429779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650313 577736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650313 706726
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650313 836733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650313 965733
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650314 107701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650314 252736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650314 381739
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0> Time: 1327650314 511736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650314 640734
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650314 774691
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650314 917739
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650315 47738
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650315 176730
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650315 320687
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650315 449688
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650315 583724
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650315 722736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650315 851727
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf5: <Q_TOTAL_COUNT_CELL=0xf5>
+[23;80H [24;1HBCM.0> Time: 1327650315 981701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650316 110735
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650316 240738
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650316 369703
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650316 499689
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650316 647726
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650316 781732
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650316 910723
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650317 40701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc3: <Q_TOTAL_COUNT_CELL=0xc3>
+[23;80H [24;1HBCM.0> Time: 1327650317 174726
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650317 320640
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xff: <Q_TOTAL_COUNT_CELL=0xff>
+[23;80H [24;1HBCM.0> Time: 1327650317 451726
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0>Time: 1327650317 580688
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650317 710703
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650317 839723
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650317 987738
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650318 116701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650318 246733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650318 390735
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0>Time: 1327650318 519734
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650318 649732
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650318 789737
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650318 918734
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650319 48662
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0>Time: 1327650319 177701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650319 307706
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650319 441734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650319 581689
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650319 718702
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650319 847736
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xbb: <Q_TOTAL_COUNT_CELL=0xbb>
+[23;80H [24;1HBCM.0> Time: 1327650319 977701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0>Time: 1327650320 106732
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650320 236701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650320 381781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650320 515810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650320 654777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650320 788807
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650320 917777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc0: <Q_TOTAL_COUNT_CELL=0xc0>
+[23;80H [24;1HBCM.0> Time: 1327650321 65807
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650321 199805
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650321 333778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650321 468779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650321 602781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650321 750775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650321 884780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650322 18807
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650322 152776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0> Time: 1327650322 286775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650322 429775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650322 558785
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650322 687779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650322 824784
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0>Time: 1327650322 953781
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650323 109808
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650323 243803
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650323 387804
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650323 521812
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650323 650777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650323 803778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650323 942775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650324 71778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650324 200779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650324 329774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650324 484780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650324 618779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf6: <Q_TOTAL_COUNT_CELL=0xf6>
+[23;80H [24;1HBCM.0>Time: 1327650324 747777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650324 892777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650325 32779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650325 176775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650325 310805
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650325 444777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650325 578776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650325 712810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650325 856810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650325 990776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650326 124782
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650326 258776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650326 392692
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650326 536727
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf6: <Q_TOTAL_COUNT_CELL=0xf6>
+[23;80H [24;1HBCM.0>Time: 1327650326 665731
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650326 809733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650326 938737
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650327 68733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650327 216733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650327 350731
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650327 479739
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650327 609690
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650327 738736
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650327 883740
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xb4: <Q_TOTAL_COUNT_CELL=0xb4>
+[23;80H [24;1HBCM.0>Time: 1327650328 12703
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650328 142701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650328 282701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0>Time: 1327650328 411733
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650328 552691
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650328 681732
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650328 811732
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650328 945737
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0>Time: 1327650329 74716
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650329 225701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650329 364739
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650329 509743
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650329 638703
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650329 768734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650329 920700
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650330 49701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650330 179736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0>Time: 1327650330 308733
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650330 447735
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650330 602702
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650330 731691
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650330 861736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650330 995730
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650331 124701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650331 271690
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650331 410700
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xfe: <Q_TOTAL_COUNT_CELL=0xfe>
+[23;80H [24;1HBCM.0> Time: 1327650331 550700
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650331 679702
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc4: <Q_TOTAL_COUNT_CELL=0xc4>
+[23;80H [24;1HBCM.0> Time: 1327650331 819701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650331 967730
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0>Time: 1327650332 96738
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650332 226734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650332 355741
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650332 485702
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650332 624735
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650332 753701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650332 883700
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650333 12738
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650333 146700
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650333 275700
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650333 405701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0>Time: 1327650333 534733
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650333 690701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650333 819704
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650333 949702
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650334 93738
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650334 227739
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650334 373701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0>Time: 1327650334 502732
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650334 632702
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650334 769736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650334 898702
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650335 46729
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650335 175726
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650335 305737
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650335 438721
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650335 567779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650335 707781
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0>Time: 1327650335 843778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0> Time: 1327650335 977779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650336 111809
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xb9: <Q_TOTAL_COUNT_CELL=0xb9>
+[23;80H [24;1HBCM.0> Time: 1327650336 245776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650336 393809
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650336 527778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650336 656777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650336 801778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650336 938778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650337 83804
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650337 217780
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650337 351776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650337 485807
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650337 619808
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf6: <Q_TOTAL_COUNT_CELL=0xf6>
+[23;80H [24;1HBCM.0>Time: 1327650337 755786
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650337 889776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650338 31806
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0> Time: 1327650338 165810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650338 309779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650338 465634
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650338 600773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650338 729781
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650338 858778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc9: <Q_TOTAL_COUNT_CELL=0xc9>
+[23;80H [24;1HBCM.0> Time: 1327650338 988781
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650339 140776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650339 274779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0> Time: 1327650339 408779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650339 542778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650339 676808
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650339 830779
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0>Time: 1327650339 959778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650340 93810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650340 237809
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650340 366779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650340 510777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650340 639777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650340 768783
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650340 897781
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0>Time: 1327650341 26778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650341 174774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650341 314813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650341 448811
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650341 577733
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650341 707692
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650341 852736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650341 981701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650342 111734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650342 245739
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650342 385703
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650342 533687
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0>Time: 1327650342 662703
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650342 792704
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650342 936734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf7: <Q_TOTAL_COUNT_CELL=0xf7>
+[23;80H [24;1HBCM.0>Time: 1327650343 65740
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650343 209737
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xb6: <Q_TOTAL_COUNT_CELL=0xb6>
+[23;80H [24;1HBCM.0>Time: 1327650343 338701
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650343 477733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650343 611701
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650343 740734
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650343 870736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf4: <Q_TOTAL_COUNT_CELL=0xf4>
+[23;80H [24;1HBCM.0>Time: 1327650343 999664
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650344 129700
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650344 258725
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650344 388700
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650344 525728
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650344 654737
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650344 788717
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650344 927709
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650345 61735
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650345 205736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650345 334704
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xfc: <Q_TOTAL_COUNT_CELL=0xfc>
+[23;80H [24;1HBCM.0> Time: 1327650345 464707
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650345 616710
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650345 745717
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650345 875761
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650346 4718
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650346 134736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650346 278705
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650346 407728
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650346 537704
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0>Time: 1327650346 668691
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650346 798692
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0>Time: 1327650346 927683
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650347 57733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0>Time: 1327650347 186729
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650347 324733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650347 453754
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650347 583760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650347 712735
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650347 851731
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650348 732
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650348 129735
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650348 269753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650348 398737
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650348 528755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650348 676758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650348 805727
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc3: <Q_TOTAL_COUNT_CELL=0xc3>
+[23;80H [24;1HBCM.0>Time: 1327650348 934734
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650349 74750
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0>Time: 1327650349 203730
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650349 348710
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650349 477757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650349 607733
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0>Time: 1327650349 736731
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650349 866734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650350 5760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650350 134729
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650350 264757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0>Time: 1327650350 393757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650350 523730
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0>Time: 1327650350 652760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650350 782734
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650350 911735
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650351 58730
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650351 187754
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650351 317727
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0>Time: 1327650351 446755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650351 576736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650351 719730
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650351 848728
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650351 978730
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650352 125819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650352 254819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650352 388822
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650352 525841
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc4: <Q_TOTAL_COUNT_CELL=0xc4>
+[23;80H [24;1HBCM.0>Time: 1327650352 654816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650352 784814
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650352 913799
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650353 43817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0>Time: 1327650353 172818
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf5: <Q_TOTAL_COUNT_CELL=0xf5>
+[23;80H [24;1HBCM.0> Time: 1327650353 302812
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650353 450844
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650353 579819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650353 709819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650353 838816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650353 968811
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650354 108791
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc6: <Q_TOTAL_COUNT_CELL=0xc6>
+[23;80H [24;1HBCM.0> Time: 1327650354 238775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650354 372808
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650354 501843
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650354 635816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650354 764817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650354 894811
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc8: <Q_TOTAL_COUNT_CELL=0xc8>
+[23;80H [24;1HBCM.0>Time: 1327650355 23815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650355 160818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650355 289815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650355 428818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650355 573838
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650355 702817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0>Time: 1327650355 839843
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650355 975818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650356 104815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650356 238819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0>Time: 1327650356 367762
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc0: <Q_TOTAL_COUNT_CELL=0xc0>
+[23;80H [24;1HBCM.0>Time: 1327650356 511804
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650356 641841
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650356 770816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xfc: <Q_TOTAL_COUNT_CELL=0xfc>
+[23;80H [24;1HBCM.0> Time: 1327650356 900819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650357 29811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650357 174837
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xff: <Q_TOTAL_COUNT_CELL=0xff>
+[23;80H [24;1HBCM.0> Time: 1327650357 308812
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650357 437809
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650357 575818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650357 705903
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650357 835808
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650357 964813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650358 94811
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650358 232838
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xbf: <Q_TOTAL_COUNT_CELL=0xbf>
+[23;80H [24;1HBCM.0>Time: 1327650358 361817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650358 491820
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650358 638817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650358 767815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650358 912841
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650359 41821
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650359 171813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0>Time: 1327650359 300818
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650359 430803
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf6: <Q_TOTAL_COUNT_CELL=0xf6>
+[23;80H [24;1HBCM.0> Time: 1327650359 578814
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650359 720820
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0>Time: 1327650359 849817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650359 979810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650360 108798
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650360 253810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0>Time: 1327650360 382829
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650360 512774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650360 641774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0> Time: 1327650360 771774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650360 900812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650361 34837
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650361 163819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0> Time: 1327650361 303813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650361 432817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650361 562799
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650361 706815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xfa: <Q_TOTAL_COUNT_CELL=0xfa>
+[23;80H [24;1HBCM.0> Time: 1327650361 840813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650361 979824
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650362 108812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc8: <Q_TOTAL_COUNT_CELL=0xc8>
+[23;80H [24;1HBCM.0> Time: 1327650362 238818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf5: <Q_TOTAL_COUNT_CELL=0xf5>
+[23;80H [24;1HBCM.0>Time: 1327650362 367815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650362 497815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650362 645777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650362 779802
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650362 908815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650363 47805
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0>Time: 1327650363 176815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650363 317800
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650363 446803
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650363 576801
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650363 705816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650363 835819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650363 964819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650364 104843
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650364 233812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650364 377820
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650364 506813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650364 636842
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650364 780773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650364 909814
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650365 45817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650365 181816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650365 311803
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650365 445819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0>Time: 1327650365 574817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650365 722822
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0x102: <Q_TOTAL_COUNT_CELL=0x102>
+[23;80H [24;1HBCM.0> Time: 1327650365 858813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650365 987816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd8: <Q_TOTAL_COUNT_CELL=0xd8>
+[23;80H [24;1HBCM.0> Time: 1327650366 117818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650366 254847
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650366 393779
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650366 522842
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650366 652816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0>Time: 1327650366 781811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0> Time: 1327650366 911815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0>Time: 1327650367 53839
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650367 183801
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650367 312818
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf5: <Q_TOTAL_COUNT_CELL=0xf5>
+[23;80H [24;1HBCM.0> Time: 1327650367 457805
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650367 586821
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650367 716928
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650367 876817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650368 6836
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0>Time: 1327650368 135816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650368 265810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0>Time: 1327650368 394811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650368 524819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0>Time: 1327650368 653767
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650368 792813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc4: <Q_TOTAL_COUNT_CELL=0xc4>
+[23;80H [24;1HBCM.0>Time: 1327650368 921811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650369 51818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf5: <Q_TOTAL_COUNT_CELL=0xf5>
+[23;80H [24;1HBCM.0>Time: 1327650369 180819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650369 310816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650369 454793
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650369 583816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc2: <Q_TOTAL_COUNT_CELL=0xc2>
+[23;80H [24;1HBCM.0> Time: 1327650369 713817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650369 842813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650369 972812
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0>Time: 1327650370 101811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650370 231818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650370 360812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650370 499769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650370 638811
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc1: <Q_TOTAL_COUNT_CELL=0xc1>
+[23;80H [24;1HBCM.0>Time: 1327650370 767787
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650370 911817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650371 40819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650371 179813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650371 308813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650371 438818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650371 567809
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xbc: <Q_TOTAL_COUNT_CELL=0xbc>
+[23;80H [24;1HBCM.0> Time: 1327650371 706816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650371 854817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650371 983818
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650372 113821
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650372 242810
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650372 372813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650372 516821
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650372 645810
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0> Time: 1327650372 784829
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650372 913812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650373 43816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650373 190818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650373 319780
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650373 448777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650373 592833
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650373 721812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650373 862813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650373 996817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650374 125815
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650374 255810
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650374 384811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650374 514813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc4: <Q_TOTAL_COUNT_CELL=0xc4>
+[23;80H [24;1HBCM.0>Time: 1327650374 643842
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc8: <Q_TOTAL_COUNT_CELL=0xc8>
+[23;80H [24;1HBCM.0> Time: 1327650374 773833
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650374 918813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xff: <Q_TOTAL_COUNT_CELL=0xff>
+[23;80H [24;1HBCM.0>Time: 1327650375 47813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650375 181812
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650375 310808
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650375 440816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650375 586834
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650375 715812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650375 845814
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf5: <Q_TOTAL_COUNT_CELL=0xf5>
+[23;80H [24;1HBCM.0>Time: 1327650375 974814
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650376 104815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0>Time: 1327650376 233814
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650376 363820
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650376 492811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650376 633818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0>Time: 1327650376 762814
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650376 892818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650377 36819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650377 170815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650377 313818
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0>Time: 1327650377 442813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650377 572813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650377 701767
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xff: <Q_TOTAL_COUNT_CELL=0xff>
+[23;80H [24;1HBCM.0> Time: 1327650377 836815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650377 984811
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650378 118816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650378 256816
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc9: <Q_TOTAL_COUNT_CELL=0xc9>
+[23;80H [24;1HBCM.0>Time: 1327650378 385813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650378 514812
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650378 658817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650378 787816
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650378 917817
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650379 46817
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650379 176819
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650379 325843
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650379 454813
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650379 584814
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650379 728814
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0>Time: 1327650379 857811
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650379 987813
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650380 126815
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650380 255819
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650380 396775
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc9: <Q_TOTAL_COUNT_CELL=0xc9>
+[23;80H [24;1HBCM.0>Time: 1327650380 525757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650380 659760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650380 793758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650380 927756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650381 61758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650381 195757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650381 329758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0> Time: 1327650381 471754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650381 605755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf9: <Q_TOTAL_COUNT_CELL=0xf9>
+[23;80H [24;1HBCM.0> Time: 1327650381 740760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xbd: <Q_TOTAL_COUNT_CELL=0xbd>
+[23;80H [24;1HBCM.0> Time: 1327650381 874760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650382 13761
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650382 142718
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650382 271758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650382 419759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650382 561757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650382 695758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0> Time: 1327650382 829757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xbc: <Q_TOTAL_COUNT_CELL=0xbc>
+[23;80H [24;1HBCM.0> Time: 1327650382 963758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650383 106763
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650383 240759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650383 374761
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650383 503759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650383 640761
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650383 777752
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650383 911758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650384 45768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650384 179755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc9: <Q_TOTAL_COUNT_CELL=0xc9>
+[23;80H [24;1HBCM.0> Time: 1327650384 323757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650384 466760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650384 600756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650384 739758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf9: <Q_TOTAL_COUNT_CELL=0xf9>
+[23;80H [24;1HBCM.0> Time: 1327650384 873754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650385 7764
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650385 147784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650385 281759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650385 415757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650385 549759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650385 683759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650385 833755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650385 967748
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650386 101756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650386 245760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650386 379755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650386 513791
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650386 647765
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650386 781760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0> Time: 1327650386 916792
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0>Time: 1327650387 45756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650387 193759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650387 322758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650387 451759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650387 581760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650387 710754
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650387 855784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650387 997789
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650388 141729
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650388 275756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650388 404757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650388 552757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650388 681759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650388 810760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650388 939757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650389 76756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650389 220753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650389 354758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650389 488756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650389 622756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650389 751757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650389 892759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650390 26756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf8: <Q_TOTAL_COUNT_CELL=0xf8>
+[23;80H [24;1HBCM.0>Time: 1327650390 162760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650390 291750
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0>Time: 1327650390 420759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc8: <Q_TOTAL_COUNT_CELL=0xc8>
+[23;80H [24;1HBCM.0> Time: 1327650390 570758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650390 699756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650390 843753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650390 977755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650391 111759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650391 258755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0>Time: 1327650391 387760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0>Time: 1327650391 516757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc9: <Q_TOTAL_COUNT_CELL=0xc9>
+[23;80H [24;1HBCM.0> Time: 1327650391 646757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0>Time: 1327650391 775756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650391 904755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc6: <Q_TOTAL_COUNT_CELL=0xc6>
+[23;80H [24;1HBCM.0>Time: 1327650392 33757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650392 162756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd0: <Q_TOTAL_COUNT_CELL=0xd0>
+[23;80H [24;1HBCM.0> Time: 1327650392 307784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650392 441752
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650392 570760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650392 700755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650392 834758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650392 970760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0>Time: 1327650393 99756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650393 229759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0> Time: 1327650393 363759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650393 497755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650393 651786
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0>Time: 1327650393 780757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650393 924761
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0>Time: 1327650394 53755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650394 182762
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650394 334788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650394 468756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650394 602757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650394 731778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0>Time: 1327650394 860755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650395 15762
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650395 149753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650395 283787
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650395 422759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0>Time: 1327650395 553759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcd: <Q_TOTAL_COUNT_CELL=0xcd>
+[23;80H [24;1HBCM.0> Time: 1327650395 704784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650395 840788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650395 974784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650396 108757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650396 242756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650396 390759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650396 524755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xbd: <Q_TOTAL_COUNT_CELL=0xbd>
+[23;80H [24;1HBCM.0> Time: 1327650396 666756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650396 795759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650396 929755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650397 74758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650397 208756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650397 347756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650397 481757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650397 615755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650397 760759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650397 894760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650398 28755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0>Time: 1327650398 157759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650398 291757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650398 439757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650398 573759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650398 707757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650398 843725
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650398 974736
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xfe: <Q_TOTAL_COUNT_CELL=0xfe>
+[23;80H [24;1HBCM.0> Time: 1327650399 119788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650399 263757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650399 397754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650399 531755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650399 675755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0>Time: 1327650399 804759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650399 945758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650400 79758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650400 208753
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650400 337759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650400 485755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0> Time: 1327650400 619753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650400 753756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650400 882755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650401 23788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650401 168787
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650401 297792
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650401 427760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xfa: <Q_TOTAL_COUNT_CELL=0xfa>
+[23;80H [24;1HBCM.0> Time: 1327650401 571756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650401 700758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd3: <Q_TOTAL_COUNT_CELL=0xd3>
+[23;80H [24;1HBCM.0> Time: 1327650401 848740
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650401 982758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650402 117756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0>Time: 1327650402 246758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650402 375755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650402 522788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650402 651759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650402 780760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650402 909785
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650403 39756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650403 187756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650403 321759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650403 455756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650403 589760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0> Time: 1327650403 723758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650403 871758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650404 5757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650404 139759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650404 282784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650404 411757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650404 556793
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650404 685756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650404 814754
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650404 944758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650405 78756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf8: <Q_TOTAL_COUNT_CELL=0xf8>
+[23;80H [24;1HBCM.0> Time: 1327650405 219757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650405 355755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650405 489759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0>Time: 1327650405 618759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0> Time: 1327650405 748756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650405 902754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650406 31758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650406 175762
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650406 304755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650406 440789
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf3: <Q_TOTAL_COUNT_CELL=0xf3>
+[23;80H [24;1HBCM.0> Time: 1327650406 592788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0>Time: 1327650406 721760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650406 850758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650406 979787
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650407 108758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650407 237758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650407 366759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650407 495751
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650407 639757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0>Time: 1327650407 768755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650407 897744
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650408 27754
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650408 161760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc8: <Q_TOTAL_COUNT_CELL=0xc8>
+[23;80H [24;1HBCM.0>Time: 1327650408 297758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650408 426785
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf6: <Q_TOTAL_COUNT_CELL=0xf6>
+[23;80H [24;1HBCM.0>Time: 1327650408 555757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0> Time: 1327650408 685760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xce: <Q_TOTAL_COUNT_CELL=0xce>
+[23;80H [24;1HBCM.0>Time: 1327650408 814755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0>Time: 1327650408 963755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650409 92756
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650409 231755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650409 360759
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650409 489760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0> Time: 1327650409 633753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0>Time: 1327650409 762758
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650409 891757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650410 28758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xca: <Q_TOTAL_COUNT_CELL=0xca>
+[23;80H [24;1HBCM.0> Time: 1327650410 162759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcb: <Q_TOTAL_COUNT_CELL=0xcb>
+[23;80H [24;1HBCM.0> Time: 1327650410 296755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0> Time: 1327650410 430755
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650410 564746
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650410 708756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650410 842758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650410 976787
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650411 110757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650411 244757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0>Time: 1327650411 380760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0>Time: 1327650411 509757
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650411 639760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650411 773756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0> Time: 1327650411 917786
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650412 68758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650412 202758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0> Time: 1327650412 336756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd7: <Q_TOTAL_COUNT_CELL=0xd7>
+[23;80H [24;1HBCM.0> Time: 1327650412 470756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650412 604757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650412 748760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650412 877760
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc5: <Q_TOTAL_COUNT_CELL=0xc5>
+[23;80H [24;1HBCM.0> Time: 1327650413 16759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650413 150760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc0: <Q_TOTAL_COUNT_CELL=0xc0>
+[23;80H [24;1HBCM.0> Time: 1327650413 284760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650413 431756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xef: <Q_TOTAL_COUNT_CELL=0xef>
+[23;80H [24;1HBCM.0> Time: 1327650413 565760
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650413 699759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650413 843756
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650413 977757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0> Time: 1327650414 115757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0> Time: 1327650414 249757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650414 383757
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650414 517759
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650414 646755
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0> Time: 1327650414 794758
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650414 923769
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0>Time: 1327650415 52772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650415 188770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0>Time: 1327650415 317772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650415 462771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650415 596771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650415 730776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650415 864774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc2: <Q_TOTAL_COUNT_CELL=0xc2>
+[23;80H [24;1HBCM.0> Time: 1327650415 998772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0> Time: 1327650416 146770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0> Time: 1327650416 280770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650416 409773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0> Time: 1327650416 545771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0>Time: 1327650416 674777
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650416 819784
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650416 953753
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0> Time: 1327650417 87774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650417 216773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe2: <Q_TOTAL_COUNT_CELL=0xe2>
+[23;80H [24;1HBCM.0> Time: 1327650417 356774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcc: <Q_TOTAL_COUNT_CELL=0xcc>
+[23;80H [24;1HBCM.0> Time: 1327650417 493744
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650417 622773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650417 751771
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650417 880769
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0>Time: 1327650418 9784
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0>Time: 1327650418 138772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650418 267773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0> Time: 1327650418 406772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xda: <Q_TOTAL_COUNT_CELL=0xda>
+[23;80H [24;1HBCM.0> Time: 1327650418 542772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd4: <Q_TOTAL_COUNT_CELL=0xd4>
+[23;80H [24;1HBCM.0> Time: 1327650418 676768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf8: <Q_TOTAL_COUNT_CELL=0xf8>
+[23;80H [24;1HBCM.0>Time: 1327650418 815772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc9: <Q_TOTAL_COUNT_CELL=0xc9>
+[23;80H [24;1HBCM.0>Time: 1327650418 944773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650419 73774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xcf: <Q_TOTAL_COUNT_CELL=0xcf>
+[23;80H [24;1HBCM.0> Time: 1327650419 221776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf7: <Q_TOTAL_COUNT_CELL=0xf7>
+[23;80H [24;1HBCM.0>Time: 1327650419 350769
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe4: <Q_TOTAL_COUNT_CELL=0xe4>
+[23;80H [24;1HBCM.0> Time: 1327650419 487769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0>Time: 1327650419 616772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650419 745773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf0: <Q_TOTAL_COUNT_CELL=0xf0>
+[23;80H [24;1HBCM.0> Time: 1327650419 890769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0>Time: 1327650420 19789
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650420 148729
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650420 277775
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650420 406771
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650420 535770
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650420 664771
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0>Time: 1327650420 793771
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0> Time: 1327650420 929771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe0: <Q_TOTAL_COUNT_CELL=0xe0>
+[23;80H [24;1HBCM.0>Time: 1327650421 58774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650421 187774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650421 316768
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650421 445768
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0> Time: 1327650421 590773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xeb: <Q_TOTAL_COUNT_CELL=0xeb>
+[23;80H [24;1HBCM.0> Time: 1327650421 724769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd9: <Q_TOTAL_COUNT_CELL=0xd9>
+[23;80H [24;1HBCM.0>Time: 1327650421 853773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd5: <Q_TOTAL_COUNT_CELL=0xd5>
+[23;80H [24;1HBCM.0>Time: 1327650421 982767
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650422 111772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe3: <Q_TOTAL_COUNT_CELL=0xe3>
+[23;80H [24;1HBCM.0>Time: 1327650422 240778
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe1: <Q_TOTAL_COUNT_CELL=0xe1>
+[23;80H [24;1HBCM.0>Time: 1327650422 369774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0>Time: 1327650422 498770
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf7: <Q_TOTAL_COUNT_CELL=0xf7>
+[23;80H [24;1HBCM.0> Time: 1327650422 636796
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf1: <Q_TOTAL_COUNT_CELL=0xf1>
+[23;80H [24;1HBCM.0> Time: 1327650422 775770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650422 904772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd6: <Q_TOTAL_COUNT_CELL=0xd6>
+[23;80H [24;1HBCM.0> Time: 1327650423 49773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650423 178772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe9: <Q_TOTAL_COUNT_CELL=0xe9>
+[23;80H [24;1HBCM.0> Time: 1327650423 316769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf4: <Q_TOTAL_COUNT_CELL=0xf4>
+[23;80H [24;1HBCM.0>Time: 1327650423 445774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdf: <Q_TOTAL_COUNT_CELL=0xdf>
+[23;80H [24;1HBCM.0>Time: 1327650423 574771
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc7: <Q_TOTAL_COUNT_CELL=0xc7>
+[23;80H [24;1HBCM.0>Time: 1327650423 703769
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf2: <Q_TOTAL_COUNT_CELL=0xf2>
+[23;80H [24;1HBCM.0> Time: 1327650423 842800
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0> Time: 1327650423 990800
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650424 119769
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xea: <Q_TOTAL_COUNT_CELL=0xea>
+[23;80H [24;1HBCM.0>Time: 1327650424 248773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xf4: <Q_TOTAL_COUNT_CELL=0xf4>
+[23;80H [24;1HBCM.0>Time: 1327650424 377772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe6: <Q_TOTAL_COUNT_CELL=0xe6>
+[23;80H [24;1HBCM.0>Time: 1327650424 506770
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe8: <Q_TOTAL_COUNT_CELL=0xe8>
+[23;80H [24;1HBCM.0>Time: 1327650424 645803
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdc: <Q_TOTAL_COUNT_CELL=0xdc>
+[23;80H [24;1HBCM.0>Time: 1327650424 774773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd2: <Q_TOTAL_COUNT_CELL=0xd2>
+[23;80H [24;1HBCM.0> Time: 1327650424 911777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650425 40775
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xde: <Q_TOTAL_COUNT_CELL=0xde>
+[23;80H [24;1HBCM.0>Time: 1327650425 169776
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xd1: <Q_TOTAL_COUNT_CELL=0xd1>
+[23;80H [24;1HBCM.0>Time: 1327650425 298775
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdd: <Q_TOTAL_COUNT_CELL=0xdd>
+[23;80H [24;1HBCM.0>Time: 1327650425 427770
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe7: <Q_TOTAL_COUNT_CELL=0xe7>
+[23;80H [24;1HBCM.0>Time: 1327650425 556772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xe5: <Q_TOTAL_COUNT_CELL=0xe5>
+[23;80H [24;1HBCM.0> Time: 1327650425 702773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xee: <Q_TOTAL_COUNT_CELL=0xee>
+[23;80H [24;1HBCM.0>Time: 1327650425 831774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xdb: <Q_TOTAL_COUNT_CELL=0xdb>
+[23;80H [24;1HBCM.0>Time: 1327650425 960774
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650426 99775
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xec: <Q_TOTAL_COUNT_CELL=0xec>
+[23;80H [24;1HBCM.0>Time: 1327650426 228773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xc1: <Q_TOTAL_COUNT_CELL=0xc1>
+[23;80H [24;1HBCM.0> Time: 1327650426 381767
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0xed: <Q_TOTAL_COUNT_CELL=0xed>
+[23;80H [24;1HBCM.0> Time: 1327650426 515771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650426 643796
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650426 771768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650426 899768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 42773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 170778
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 298772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 426772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 554772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 682770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 810773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650427 938771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 78772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 207774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 335771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 463768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 591771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 739774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 867772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650428 995769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 123770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 259788
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 387769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 515767
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 643796
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 778774
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650429 906771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 34772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 162772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 290776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 438768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 566772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 704770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 832770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650430 960772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 98771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 226770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 354770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 490772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 618772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 746769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650431 874831
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 2777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 141772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 269773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 397771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 532772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 660771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 788769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650432 916772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 44776
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0>Time: 1327650433 181770
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 309773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 437769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 565771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 693771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 821771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650433 949802
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650434 77777
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0>Time: 1327650434 205773
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650434 333772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650434 461772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650434 589786
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0>Time: 1327650434 717772
+ g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650434 865794
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650434 993771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 121769
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 249773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 377771
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 505772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 633772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 768770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650435 903772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 31772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 159770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 287768
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 415772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 563770
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 691773
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP_QUEUE_TOTAL_COUNT_CELL(0).ge1[0x321f3c0]=0: <Q_TOTAL_COUNT_CELL=0>
+[23;80H [24;1HBCM.0> Time: 1327650436 832772
+g op_queue_total_count_cell(0).ge1
+[23;80H [24;1HOP

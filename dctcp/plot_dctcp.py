@@ -1,8 +1,12 @@
+import sys
+import os
+
+sys.path.append('old_data')
+
 from helper import *
 import argparse
 
 import sys
-sys.path.append(os.path.abspath('mininet-nsdi'))
 
 import dctcp_hardware, dctcp_mininet
 import tcp_hardware, tcp_mininet
@@ -18,8 +22,8 @@ def normalise(values, interval=0.125):
             yvalues.append(v)
     return xvalues, yvalues
 
-def plot(blah, interval, label):
-    xs, ys = normalise(blah, interval)
+def plot(queues, time_interval, label):
+    xs, ys = normalise(queues, time_interval)
     plt.plot(xs, ys, label=label, lw=2)
 
 plot(dctcp_hardware.q_dctcp_hardware, 0.125, "DCTCP-hardware")
@@ -34,6 +38,5 @@ plt.ylabel("Instantaneous queue occupancy (KB)")
 plt.grid(True)
 plt.legend()
 
-plt.figure()
 plt.show()
 
