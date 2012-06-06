@@ -1,0 +1,7 @@
+Load Generator for clusters
+-----------------------------------
+
+Output format of the load generator
+-----------------------------------
+Each line of output contains:
+Timestamp    RX_rate    TX_rate    RX_bytes    TX_bytes
