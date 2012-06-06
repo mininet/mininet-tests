@@ -1,0 +1,9 @@
+Instructions to reproduce the Hedera experiment:
+
+Dependencies:
+- Ubuntu 12.04 
+- Latest Mininet code (git://github.com/mininet/mininet.git, cs244 branch)
+- RipL (git://github.com/brandonheller/riplpox.git) and its dependencies
+
+cd hedera/cluster_loadgen
+make
