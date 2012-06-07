@@ -54,7 +54,7 @@ def read_samples(f):
 for f,exp,label in zip(args.files, args.expected, args.labels):
     samples = read_samples(f)
     exp = float(exp)
-    normalised = [(sample / exp - 1.0) * 100.0 for sample in samples]
+    normalised = [abs(sample / exp - 1.0) * 100.0 for sample in samples]
 
     x, y = cdf(normalised)
     if args.ccdf:
