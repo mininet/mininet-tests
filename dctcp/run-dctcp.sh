@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bw=1000
+bw=100
 t=30
 n=3
 maxq=425
