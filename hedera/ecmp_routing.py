@@ -65,7 +65,7 @@ def FatTreeNet(k=4, bw=100, cpu=-1,  queue=100):
     "Convenience function for creating pair networks"
     global opts
 
-    pox_c = Popen("~/pox/pox.py --no-cli riplpox.riplpox --topo=ft,%s --routing=random 1> %s/pox.out 2> %s/pox.out " % (k, opts.outputdir, opts.outputdir), shell=True)
+    pox_c = Popen("~/pox/pox.py --no-cli riplpox.riplpox --topo=ft,%s --routing=random --mode=proactive 1> %s/pox.out 2> %s/pox.out" % (k, opts.outputdir, opts.outputdir), shell=True)
 
     topo = FatTreeTopo(k, speed=bw/1000.)
     host = custom(CPULimitedHost, cpu=cpu)
@@ -190,7 +190,8 @@ def FatTreeTest(opts):
     net.start()
     hosts = hostArray( net )
     # wait for the switches to connect to the controller
-    sleep(1)
+    info('** Waiting for switches to connect to the controller\n')
+    progress(10)
 
     trafficGenPairs(opts, hosts, net)
     net.stop()
