@@ -67,7 +67,8 @@ sudo reboot
 - Reconfigure openvswitch
   sudo dpkg-reconfigure openvswitch-datapath-dkms
 
-- Check if Mininet is working fine (might require an extra reboot before this)
+- Check if Mininet is working fine (might require an extra reboot for this to
+  work)
   sudo mn --link tc,bw=10 --test iperf
 
 ===================================================================
