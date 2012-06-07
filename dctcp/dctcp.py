@@ -94,8 +94,8 @@ parser.add_argument('--tcpdump',
                     default=False)
 
 parser.add_argument('--delay',
-        dest="delay",
-        default="0.075ms  0.05ms distribution normal  ")
+	dest="delay",
+	default="0.075ms  0.05ms distribution normal  ")
 
 args = parser.parse_args()
 args.n = int(args.n)
@@ -192,10 +192,7 @@ def main():
     net.start()
 
     h1 = net.getNodeByName('h1')
-    h1.cmd('ifconfig')
-    h1.sendCmd('ping -c 10 10.0.0.2')
-    progress(5)
-    h1.waitOutput()
+    print h1.cmd('ping -c 2 10.0.0.2')
     h1.sendCmd('iperf -s')
 
     clients = [net.getNodeByName('h%d' % (i+1)) for i in xrange(1, args.n)]
