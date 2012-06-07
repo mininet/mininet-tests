@@ -4,7 +4,8 @@ Dependencies:
 - Ubuntu 12.04 with the DCTCP kernel (instructions to install the DCTCP kernel follow)
 - Latest Mininet code (git://github.com/mininet/mininet.git, cs244 branch)
 
-Instructions to install DCTCP kernel:
+===================================================================
+Instructions to install DCTCP kernel v3.2:
 
 cd /usr/src
 wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.2.18.tar.bz2
@@ -32,7 +33,33 @@ sudo update-grub2
 verify /boot/grub/grub.cfg
 sudo reboot
 
-- After you reboot, check if
+===================================================================
+Instructions to install DCTCP kernel v3.0:
+
+wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.0.1.tar.bz2
+tar -xjf linux-3.0.1.tar.bz2
+cd linux-3.0.1
+cp -r mininet_tests/dctcp/linux-3.0.0-patches patches
+quilt push -a
+make menuconfig
+
+processors=`grep -c ^processor /proc/cpuinfo`
+export CONCURRENCY_LEVEL=$processors
+make-kpkg clean
+time fakeroot make-kpkg --verbose --initrd --append-to-version=-dctcp
+kernel_image kernel_headers
+(this takes a while — run it in a screen if you are connected remotely)
+cd /usr/src
+sudo dpkg -i linux-image-3.0.1-dctcp*.deb
+sudo dpkg -i linux-headers-3.0.1-dctcp*.deb
+sudo update-grub
+edit /etc/default/grub and change the "default" kernel
+sudo update-grub
+verify /boot/grub/grub.cfg
+sudo reboot
+
+===================================================================
+- After reboot, check if
   DCTCP has been correctly installed:
 
     sysctl -a | grep tcp_dctcp
@@ -42,3 +69,5 @@ sudo reboot
 
 - Check if Mininet is working fine (might require an extra reboot before this)
   sudo mn --link tc,bw=10 --test iperf
+
+===================================================================
