@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Plot inter-dequeue time distribution...
+
 # Exit on any failure...
 set -e
 
@@ -30,6 +32,7 @@ function gendata {
 #gendata
 
 python link_dequeues.py --files linkdata-10 linkdata-100 linkdata-400 \
-    --expected  192 192 192 \
+    --expected  193.8 193.8 193.8 \
     --labels "20 flows" "200 flows" "800 flows" \
-    --title "" --ccdf --log --out output.pdf
+    --title "" --ccdf --log --out output.pdf --percent
+
