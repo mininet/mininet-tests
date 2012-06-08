@@ -23,7 +23,7 @@ from mininet.node import Controller, RemoteController, OVSKernelSwitch, CPULimit
 from mininet.link import TCLink
 from mininet.cli import CLI
 from mininet.log import setLogLevel, info, warn, error, debug
-from mininet.util import custom
+from mininet.util import custom, quietRun, run
 
 from util.monitor import monitor_cpu, monitor_devs_ng
 from dctopo import FatTreeTopo
@@ -65,7 +65,7 @@ def FatTreeNet(k=4, bw=100, cpu=-1,  queue=100):
     "Convenience function for creating pair networks"
     global opts
 
-    pox_c = Popen("~/pox/pox.py --no-cli riplpox.riplpox --topo=ft,%s --routing=random --mode=proactive 1> %s/pox.out 2> %s/pox.out" % (k, opts.outputdir, opts.outputdir), shell=True)
+    pox_c = Popen("~/pox/pox.py --no-cli riplpox.riplpox --topo=ft,%s --routing=st --mode=proactive 1> %s/pox.out 2> %s/pox.out" % (k, opts.outputdir, opts.outputdir), shell=True)
 
     topo = FatTreeTopo(k, speed=bw/1000.)
     host = custom(CPULimitedHost, cpu=cpu)
@@ -191,7 +191,7 @@ def FatTreeTest(opts):
     hosts = hostArray( net )
     # wait for the switches to connect to the controller
     info('** Waiting for switches to connect to the controller\n')
-    progress(10)
+    progress(5)
 
     trafficGenPairs(opts, hosts, net)
     net.stop()
@@ -224,6 +224,19 @@ def HederaTest(opts):
         # run the traffic on a fat tree
         FatTreeTest(opts)
 
+def clean():
+    '''Clean any running instances of POX'''
+    p = Popen("ps aux | grep 'pox' | awk '{print $2}'",
+	    stdout=PIPE, shell=True)
+    p.wait()
+    procs = (p.communicate()[0]).split('\n')
+    for pid in procs:
+	try:
+	    pid = int(pid)
+	    Popen('kill %d' % pid, shell=True).wait()
+	except:
+	    pass
+
 if __name__ == '__main__':
     random.seed()
     setLogLevel( 'info' )
@@ -234,9 +247,12 @@ if __name__ == '__main__':
     if opts.dctcp:
         enable_dctcp()
 
+    clean()
+
     HederaTest(opts)
 
     disable_dctcp()
 
     Popen("killall -9 top bwm-ng", shell=True).wait()
+    clean()
     os.system('sudo mn -c')
