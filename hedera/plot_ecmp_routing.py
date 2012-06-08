@@ -1,9 +1,12 @@
 #!/usr/bin/python
 
+import sys
+sys.path = ['../'] + sys.path
+
 import matplotlib.pyplot as plt
 import numpy as np
-from plot_defaults import *
-from mininet.test.nsdi.plot import colorGenerator, hatchGenerator
+from util.plot_defaults import *
+from util.plot import colorGenerator, hatchGenerator
 from optparse import OptionParser
 import csv
 import os
@@ -25,10 +28,12 @@ def parse_hedera_csv(plotopts):
 def parse_mininet_out(indir, plotopts):
     avg_xput = []
     for infile in os.listdir(indir):
-        outfile_re = re.compile('^\d+\.out$')
+        #outfile_re = re.compile('^\d+\.out$')
+        outfile_re = re.compile('^\d+\_\d+\_\d+\.out$')
         if not outfile_re.match(infile):
             continue
         fname = '%s/%s' % (indir, infile)
+	print fname
         f = open(fname, 'r')
         lines = f.readlines()
         assert len(lines) > 20
@@ -92,8 +97,10 @@ if __name__ == '__main__':
 
     num_t = 20 # plot just the first 20 results
 
+    run_range = range(plotopts.runs)
+
     mininet_result = []
-    for j in range(plotopts.runs):
+    for j in run_range:
         # parse mininet results
         mininet_result.append({})
         for t in traffic[:num_t]:
@@ -122,7 +129,7 @@ if __name__ == '__main__':
         p1 = plt.bar(ind + 0.5*width, y, width, color=cgen.next(), hatch=hgen.next())
 
         # mininet fattree
-        fattree_yvals = [[mininet_result[j][t]['fattree']*veth_correction/mininet_fbb for j in range(plotopts.runs)] for t in tt]
+        fattree_yvals = [[mininet_result[j][t]['fattree']*veth_correction/mininet_fbb for j in run_range] for t in tt]
         y = [sum(l)/len(l) for l in fattree_yvals]
         yerr_lo = [y[j] - min(fattree_yvals[j]) for j in range(len(fattree_yvals))]
         yerr_hi = [max(fattree_yvals[j]) - y[j] for j in range(len(fattree_yvals))]
@@ -134,7 +141,7 @@ if __name__ == '__main__':
         p3 = plt.bar(ind + 2.5*width, y, width, color=cgen.next(), hatch=hgen.next())
 
         # mininet nonblocking
-        nonblocking_yvals = [[mininet_result[j][t]['nonblocking']*veth_correction/mininet_fbb for j in range(plotopts.runs)] for t in tt]
+        nonblocking_yvals = [[mininet_result[j][t]['nonblocking']*veth_correction/mininet_fbb for j in run_range] for t in tt]
         y = [sum(l)/len(l) for l in nonblocking_yvals]
         yerr_lo = [y[j] - min(nonblocking_yvals[j]) for j in range(len(nonblocking_yvals))]
         yerr_hi = [max(nonblocking_yvals[j]) - y[j] for j in range(len(nonblocking_yvals))]
