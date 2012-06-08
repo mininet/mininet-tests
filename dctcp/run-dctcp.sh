@@ -1,7 +1,7 @@
 #!/bin/bash
 
 bw=100
-t=30
+t=120
 n=3
 maxq=425
 
@@ -33,5 +33,5 @@ sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 }
 
 tcp
-ecn
+#ecn
 dctcp
