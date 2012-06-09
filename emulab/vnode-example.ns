@@ -1,0 +1,28 @@
+# This is a simple ns script. Comments start with #.
+set ns [new Simulator]                  
+source tb_compat.tcl
+
+set nodeA [$ns node]
+set nodeB [$ns node]
+set nodeC [$ns node]
+set nodeD [$ns node]
+
+# Use virtual nodes
+tb-set-hardware $nodeA pcvm
+tb-set-hardware $nodeB pcvm
+tb-set-hardware $nodeC pcvm
+tb-set-hardware $nodeD pcvm
+
+set link0 [$ns duplex-link $nodeB $nodeA 30Mb 50ms DropTail]
+tb-set-link-loss $link0 0.01
+
+set lan0 [$ns make-lan "$nodeD $nodeC $nodeB " 100Mb 0ms]
+
+# XXX cannot change the OS
+#tb-set-node-os $nodeA FBSD-STD
+#tb-set-node-os $nodeC RHL-STD         
+
+$ns rtproto Static
+
+# Go!
+$ns run

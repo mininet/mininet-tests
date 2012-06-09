@@ -1,0 +1,24 @@
+
+Performance Isolation test for vEmulab and Mininet
+
+Emulab instructions:
+
+1. Create a new emulab instance based on emulab-config.ns using a FreeBSD image.
+(Note we used a FreeBSD node because we wanted to compare against the original
+virtual Emulab implementation and paper which used FreeBSD.)
+2. Install iperf into the FreeBSD image.
+3. Run emulab-test.sh
+
+Mininet instructions:
+
+1. Install Mininet-HiFi onto your test system (we used a 2.4 GHz Core2 laptop)
+2. Run emulab-test.py
+3. It should produce results with (cfs) and without (none) CPU and bandwidth isolation.
+
+Plotting results:
+
+The results can be plotted using emulab-plot.py
+
+Sample results:
+
+Our sample results are included in the good/ directory.

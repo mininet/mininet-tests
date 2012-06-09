@@ -1,0 +1,29 @@
+
+# Simple (optionally virtual) emulab configuration
+
+set ns [new Simulator]
+source tb_compat.tcl
+
+# allocate ten virtual nodes
+set allnodes {}
+foreach x { A B C D E F G H I J } {
+    set node($x) [$ns node]
+    lappend allnodes $node($x)
+    tb-set-hardware $node($x) pcvm
+    # FBSD-JAIL or OPENVZ-STD
+    tb-set-node-os $node(A) FBSD-JAIL
+}
+
+# put everyone on 1 Mbps lan
+set lan0 [$ns make-lan "$allnodes" 1Mb 0ms]
+
+# put A and B on 200 Mbps link
+set link0 [$ns duplex-link $node(A) $node(B) 200Mb 0ms DropTail]
+
+
+# Static routing so they can talk to each other
+$ns rtproto Static
+
+# Go!
+$ns run
+

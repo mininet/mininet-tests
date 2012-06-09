@@ -1,0 +1,676 @@
+*** starting up
+*** cleaning node-B
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** starting iperf server
+*** running iperf test
+*** running waste on 0 nodes
+*** running iperf client with 0 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60679 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   672 MBytes   939 Mbits/sec
+[  3]  6.0-12.0 sec   692 MBytes   967 Mbits/sec
+[  3] 12.0-18.0 sec   692 MBytes   967 Mbits/sec
+[  3] 18.0-24.0 sec   692 MBytes   967 Mbits/sec
+[  3] 24.0-30.0 sec   692 MBytes   967 Mbits/sec
+[  3] 30.0-36.0 sec   693 MBytes   969 Mbits/sec
+[  3] 36.0-42.0 sec   692 MBytes   968 Mbits/sec
+[  3] 42.0-48.0 sec   692 MBytes   967 Mbits/sec
+[  3] 48.0-54.0 sec   692 MBytes   967 Mbits/sec
+[  3] 54.0-60.0 sec   692 MBytes   968 Mbits/sec
+[  3]  0.0-60.0 sec  6.74 GBytes   965 Mbits/sec
+*** running clean on 0 nodes
+*** running waste on 1 nodes
+*** wasting time on node-C
+*** running iperf client with 1 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size:  505 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60680 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   689 MBytes   963 Mbits/sec
+[  3]  6.0-12.0 sec   689 MBytes   963 Mbits/sec
+[  3] 12.0-18.0 sec   688 MBytes   962 Mbits/sec
+[  3] 18.0-24.0 sec   691 MBytes   966 Mbits/sec
+[  3] 24.0-30.0 sec   689 MBytes   964 Mbits/sec
+[  3] 30.0-36.0 sec   689 MBytes   963 Mbits/sec
+[  3] 36.0-42.0 sec   689 MBytes   964 Mbits/sec
+[  3] 42.0-48.0 sec   690 MBytes   965 Mbits/sec
+[  3] 48.0-54.0 sec   688 MBytes   962 Mbits/sec
+[  3] 54.0-60.0 sec   689 MBytes   963 Mbits/sec
+[  3]  0.0-60.0 sec  6.73 GBytes   963 Mbits/sec
+*** running clean on 1 nodes
+*** cleaning node-C
+*** running waste on 2 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** running iperf client with 2 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60685 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   680 MBytes   951 Mbits/sec
+[  3]  6.0-12.0 sec   683 MBytes   955 Mbits/sec
+[  3] 12.0-18.0 sec   684 MBytes   957 Mbits/sec
+[  3] 18.0-24.0 sec   684 MBytes   956 Mbits/sec
+[  3] 24.0-30.0 sec   685 MBytes   958 Mbits/sec
+[  3] 30.0-36.0 sec   684 MBytes   956 Mbits/sec
+[  3] 36.0-42.0 sec   683 MBytes   955 Mbits/sec
+[  3] 42.0-48.0 sec   686 MBytes   959 Mbits/sec
+[  3] 48.0-54.0 sec   687 MBytes   960 Mbits/sec
+[  3] 54.0-60.0 sec   688 MBytes   963 Mbits/sec
+[  3]  0.0-60.0 sec  6.68 GBytes   957 Mbits/sec
+*** running clean on 2 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** running waste on 3 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** running iperf client with 3 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60688 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   654 MBytes   914 Mbits/sec
+[  3]  6.0-12.0 sec   681 MBytes   952 Mbits/sec
+[  3] 12.0-18.0 sec   681 MBytes   952 Mbits/sec
+[  3] 18.0-24.0 sec   683 MBytes   954 Mbits/sec
+[  3] 24.0-30.0 sec   679 MBytes   949 Mbits/sec
+[  3] 30.0-36.0 sec   678 MBytes   948 Mbits/sec
+[  3] 36.0-42.0 sec   679 MBytes   949 Mbits/sec
+[  3] 42.0-48.0 sec   680 MBytes   951 Mbits/sec
+[  3] 48.0-54.0 sec   679 MBytes   949 Mbits/sec
+[  3] 54.0-60.0 sec   679 MBytes   949 Mbits/sec
+[  3]  0.0-60.0 sec  6.61 GBytes   947 Mbits/sec
+*** running clean on 3 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** running waste on 4 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** running iperf client with 4 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60699 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   648 MBytes   906 Mbits/sec
+[  3]  6.0-12.0 sec   658 MBytes   920 Mbits/sec
+[  3] 12.0-18.0 sec   664 MBytes   929 Mbits/sec
+[  3] 18.0-24.0 sec   614 MBytes   859 Mbits/sec
+[  3] 24.0-30.0 sec   479 MBytes   669 Mbits/sec
+[  3] 30.0-36.0 sec   468 MBytes   654 Mbits/sec
+[  3] 36.0-42.0 sec   479 MBytes   670 Mbits/sec
+[  3] 42.0-48.0 sec   460 MBytes   643 Mbits/sec
+[  3] 48.0-54.0 sec   458 MBytes   640 Mbits/sec
+[  3] 54.0-60.0 sec   475 MBytes   664 Mbits/sec
+[  3]  0.0-60.0 sec  5.28 GBytes   755 Mbits/sec
+*** running clean on 4 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** running waste on 5 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** running iperf client with 5 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60709 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   594 MBytes   830 Mbits/sec
+[  3]  6.0-12.0 sec   600 MBytes   838 Mbits/sec
+[  3] 12.0-18.0 sec   610 MBytes   853 Mbits/sec
+[  3] 18.0-24.0 sec   428 MBytes   599 Mbits/sec
+[  3] 24.0-30.0 sec   418 MBytes   585 Mbits/sec
+[  3] 30.0-36.0 sec   400 MBytes   559 Mbits/sec
+[  3] 36.0-42.0 sec   400 MBytes   559 Mbits/sec
+[  3] 42.0-48.0 sec   424 MBytes   593 Mbits/sec
+[  3] 48.0-54.0 sec   409 MBytes   572 Mbits/sec
+[  3] 54.0-60.0 sec   405 MBytes   566 Mbits/sec
+[  3]  0.0-60.0 sec  4.58 GBytes   655 Mbits/sec
+*** running clean on 5 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** running waste on 6 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** running iperf client with 6 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60717 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   403 MBytes   564 Mbits/sec
+[  3]  6.0-12.0 sec   345 MBytes   482 Mbits/sec
+[  3] 12.0-18.0 sec   342 MBytes   479 Mbits/sec
+[  3] 18.0-24.0 sec   376 MBytes   525 Mbits/sec
+[  3] 24.0-30.0 sec   345 MBytes   482 Mbits/sec
+[  3] 30.0-36.0 sec   352 MBytes   492 Mbits/sec
+[  3] 36.0-42.0 sec   347 MBytes   485 Mbits/sec
+[  3] 42.0-48.0 sec   346 MBytes   484 Mbits/sec
+[  3] 48.0-54.0 sec   375 MBytes   524 Mbits/sec
+[  3] 54.0-60.0 sec   404 MBytes   564 Mbits/sec
+[  3]  0.0-60.0 sec  3.55 GBytes   508 Mbits/sec
+*** running clean on 6 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** running waste on 7 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** running iperf client with 7 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60731 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   466 MBytes   651 Mbits/sec
+[  3]  6.0-12.0 sec   479 MBytes   670 Mbits/sec
+[  3] 12.0-18.0 sec   470 MBytes   656 Mbits/sec
+[  3] 18.0-24.0 sec   377 MBytes   527 Mbits/sec
+[  3] 24.0-30.0 sec   356 MBytes   498 Mbits/sec
+[  3] 30.0-36.0 sec   295 MBytes   412 Mbits/sec
+[  3] 36.0-42.0 sec   303 MBytes   424 Mbits/sec
+[  3] 42.0-48.0 sec   320 MBytes   448 Mbits/sec
+[  3] 48.0-54.0 sec   379 MBytes   530 Mbits/sec
+[  3] 54.0-60.0 sec   324 MBytes   452 Mbits/sec
+[  3]  0.0-60.0 sec  3.68 GBytes   527 Mbits/sec
+*** running clean on 7 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** running waste on 8 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** running iperf client with 8 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size:  505 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60748 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   459 MBytes   642 Mbits/sec
+[  3]  6.0-12.0 sec   403 MBytes   563 Mbits/sec
+[  3] 12.0-18.0 sec   346 MBytes   483 Mbits/sec
+[  3] 18.0-24.0 sec   275 MBytes   385 Mbits/sec
+[  3] 24.0-30.0 sec   324 MBytes   453 Mbits/sec
+[  3] 30.0-36.0 sec   354 MBytes   494 Mbits/sec
+[  3] 36.0-42.0 sec   306 MBytes   427 Mbits/sec
+[  3] 42.0-48.0 sec   270 MBytes   378 Mbits/sec
+[  3] 48.0-54.0 sec   292 MBytes   408 Mbits/sec
+[  3] 54.0-60.0 sec   278 MBytes   388 Mbits/sec
+[  3]  0.0-60.0 sec  3.23 GBytes   462 Mbits/sec
+*** running clean on 8 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** running waste on 9 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** running iperf client with 9 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60768 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   444 MBytes   621 Mbits/sec
+[  3]  6.0-12.0 sec   446 MBytes   623 Mbits/sec
+[  3] 12.0-18.0 sec   406 MBytes   567 Mbits/sec
+[  3] 18.0-24.0 sec   328 MBytes   459 Mbits/sec
+[  3] 24.0-30.0 sec   330 MBytes   461 Mbits/sec
+[  3] 30.0-36.0 sec   356 MBytes   498 Mbits/sec
+[  3] 36.0-42.0 sec   349 MBytes   488 Mbits/sec
+[  3] 42.0-48.0 sec   349 MBytes   488 Mbits/sec
+[  3] 48.0-54.0 sec   334 MBytes   467 Mbits/sec
+[  3] 54.0-60.0 sec   298 MBytes   417 Mbits/sec
+[  3]  0.0-60.0 sec  3.56 GBytes   509 Mbits/sec
+*** running clean on 9 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** running waste on 10 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** running iperf client with 10 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60787 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   422 MBytes   590 Mbits/sec
+[  3]  6.0-12.0 sec   426 MBytes   596 Mbits/sec
+[  3] 12.0-18.0 sec   398 MBytes   556 Mbits/sec
+[  3] 18.0-24.0 sec   305 MBytes   426 Mbits/sec
+[  3] 24.0-30.0 sec   322 MBytes   450 Mbits/sec
+[  3] 30.0-36.0 sec   324 MBytes   453 Mbits/sec
+[  3] 36.0-42.0 sec   340 MBytes   475 Mbits/sec
+[  3] 42.0-48.0 sec   317 MBytes   443 Mbits/sec
+[  3] 48.0-54.0 sec   282 MBytes   394 Mbits/sec
+[  3] 54.0-60.0 sec   288 MBytes   403 Mbits/sec
+[  3]  0.0-60.0 sec  3.34 GBytes   478 Mbits/sec
+*** running clean on 10 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** running waste on 11 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** running iperf client with 11 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60807 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   427 MBytes   596 Mbits/sec
+[  3]  6.0-12.0 sec   322 MBytes   450 Mbits/sec
+[  3] 12.0-18.0 sec   321 MBytes   448 Mbits/sec
+[  3] 18.0-24.0 sec   289 MBytes   405 Mbits/sec
+[  3] 24.0-30.0 sec   310 MBytes   434 Mbits/sec
+[  3] 30.0-36.0 sec   273 MBytes   382 Mbits/sec
+[  3] 36.0-42.0 sec   270 MBytes   377 Mbits/sec
+[  3] 42.0-48.0 sec   291 MBytes   407 Mbits/sec
+[  3] 48.0-54.0 sec   262 MBytes   366 Mbits/sec
+[  3] 54.0-60.0 sec   288 MBytes   402 Mbits/sec
+[  3]  0.0-60.0 sec  2.98 GBytes   427 Mbits/sec
+*** running clean on 11 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** running waste on 12 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** running iperf client with 12 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60833 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   431 MBytes   603 Mbits/sec
+[  3]  6.0-12.0 sec   448 MBytes   627 Mbits/sec
+[  3] 12.0-18.0 sec   416 MBytes   581 Mbits/sec
+[  3] 18.0-24.0 sec   291 MBytes   407 Mbits/sec
+[  3] 24.0-30.0 sec   283 MBytes   396 Mbits/sec
+[  3] 30.0-36.0 sec   331 MBytes   463 Mbits/sec
+[  3] 36.0-42.0 sec   308 MBytes   431 Mbits/sec
+[  3] 42.0-48.0 sec   306 MBytes   427 Mbits/sec
+[  3] 48.0-54.0 sec   320 MBytes   447 Mbits/sec
+[  3] 54.0-60.0 sec   346 MBytes   484 Mbits/sec
+[  3]  0.0-60.0 sec  3.40 GBytes   487 Mbits/sec
+*** running clean on 12 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** running waste on 13 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** running iperf client with 13 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60854 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   285 MBytes   399 Mbits/sec
+[  3]  6.0-12.0 sec   279 MBytes   390 Mbits/sec
+[  3] 12.0-18.0 sec   308 MBytes   430 Mbits/sec
+[  3] 18.0-24.0 sec   289 MBytes   404 Mbits/sec
+[  3] 24.0-30.0 sec   300 MBytes   419 Mbits/sec
+[  3] 30.0-36.0 sec   258 MBytes   361 Mbits/sec
+[  3] 36.0-42.0 sec   268 MBytes   375 Mbits/sec
+[  3] 42.0-48.0 sec   305 MBytes   426 Mbits/sec
+[  3] 48.0-54.0 sec   302 MBytes   422 Mbits/sec
+[  3] 54.0-60.0 sec   298 MBytes   417 Mbits/sec
+[  3]  0.0-60.0 sec  2.82 GBytes   404 Mbits/sec
+*** running clean on 13 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** running waste on 14 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** running iperf client with 14 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60889 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   285 MBytes   398 Mbits/sec
+[  3]  6.0-12.0 sec   271 MBytes   379 Mbits/sec
+[  3] 12.0-18.0 sec   327 MBytes   457 Mbits/sec
+[  3] 18.0-24.0 sec   262 MBytes   366 Mbits/sec
+[  3] 24.0-30.0 sec   273 MBytes   382 Mbits/sec
+[  3] 30.0-36.0 sec   294 MBytes   411 Mbits/sec
+[  3] 36.0-42.0 sec   263 MBytes   367 Mbits/sec
+[  3] 42.0-48.0 sec   293 MBytes   410 Mbits/sec
+[  3] 48.0-54.0 sec   288 MBytes   403 Mbits/sec
+[  3] 54.0-60.0 sec   262 MBytes   366 Mbits/sec
+[  3]  0.0-60.0 sec  2.75 GBytes   394 Mbits/sec
+*** running clean on 14 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** running waste on 15 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** running iperf client with 15 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60913 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   426 MBytes   596 Mbits/sec
+[  3]  6.0-12.0 sec   457 MBytes   639 Mbits/sec
+[  3] 12.0-18.0 sec   417 MBytes   583 Mbits/sec
+[  3] 18.0-24.0 sec   277 MBytes   387 Mbits/sec
+[  3] 24.0-30.0 sec   276 MBytes   386 Mbits/sec
+[  3] 30.0-36.0 sec   317 MBytes   443 Mbits/sec
+[  3] 36.0-42.0 sec   254 MBytes   356 Mbits/sec
+[  3] 42.0-48.0 sec   276 MBytes   386 Mbits/sec
+[  3] 48.0-54.0 sec   286 MBytes   400 Mbits/sec
+[  3] 54.0-60.0 sec   265 MBytes   370 Mbits/sec
+[  3]  0.0-60.0 sec  3.18 GBytes   455 Mbits/sec
+*** running clean on 15 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** running waste on 16 nodes
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** wasting time on node-C
+*** wasting time on node-D
+*** wasting time on node-E
+*** wasting time on node-F
+*** wasting time on node-G
+*** wasting time on node-H
+*** wasting time on node-I
+*** wasting time on node-J
+*** running iperf client with 16 load processes
+------------------------------------------------------------
+Client connecting to node-B-0, TCP port 5001
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.11 port 60946 connected with 10.0.0.12 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 6.0 sec   336 MBytes   470 Mbits/sec
+[  3]  6.0-12.0 sec   377 MBytes   527 Mbits/sec
+[  3] 12.0-18.0 sec   404 MBytes   564 Mbits/sec
+[  3] 18.0-24.0 sec   267 MBytes   373 Mbits/sec
+[  3] 24.0-30.0 sec   276 MBytes   386 Mbits/sec
+[  3] 30.0-36.0 sec   334 MBytes   467 Mbits/sec
+[  3] 36.0-42.0 sec   266 MBytes   371 Mbits/sec
+[  3] 42.0-48.0 sec   289 MBytes   404 Mbits/sec
+[  3] 48.0-54.0 sec   326 MBytes   456 Mbits/sec
+[  3] 54.0-60.0 sec   269 MBytes   376 Mbits/sec
+[  3]  0.0-60.0 sec  3.07 GBytes   439 Mbits/sec
+*** running clean on 16 nodes
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+*** shutting down
+*** cleaning node-B
+*** cleaning node-C
+*** cleaning node-D
+*** cleaning node-E
+*** cleaning node-F
+*** cleaning node-G
+*** cleaning node-H
+*** cleaning node-I
+*** cleaning node-J
+[137]   Exit 255                ssh $* < /dev/null > /dev/null 2>&1
+*** printing server output
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60679
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-60.0 sec  6.74 GBytes   964 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60680
+[  5]  0.0-60.0 sec  6.73 GBytes   963 Mbits/sec
+[  6] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60685
+[  6]  0.0-60.0 sec  6.68 GBytes   957 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60688
+[  4]  0.0-60.0 sec  6.61 GBytes   946 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60699
+[  5]  0.0-60.1 sec  5.28 GBytes   755 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60709
+[  4]  0.0-60.0 sec  4.58 GBytes   655 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60717
+[  5]  0.0-60.1 sec  3.55 GBytes   508 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60731
+[  4]  0.0-60.1 sec  3.68 GBytes   526 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60748
+[  5]  0.0-60.0 sec  3.23 GBytes   462 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60768
+[  4]  0.0-60.1 sec  3.56 GBytes   509 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60787
+[  5]  0.0-60.1 sec  3.34 GBytes   478 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60807
+[  4]  0.0-60.1 sec  2.98 GBytes   426 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60833
+[  5]  0.0-60.1 sec  3.40 GBytes   486 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60854
+[  4]  0.0-60.1 sec  2.82 GBytes   404 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60889
+[  5]  0.0-60.1 sec  2.75 GBytes   393 Mbits/sec
+[  4] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60913
+[  4]  0.0-60.1 sec  3.18 GBytes   454 Mbits/sec
+[  5] local 10.0.0.12 port 5001 connected with 10.0.0.11 port 60946
+[  5]  0.0-60.1 sec  3.07 GBytes   439 Mbits/sec
+*** test complete
