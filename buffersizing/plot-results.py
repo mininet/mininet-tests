@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 import sys
 sys.path.append('..')
+sys.path.append('../util')
+sys.path.append('../..')
+sys.path.append('../../util')
 from util.helper import *
 import glob
 from collections import defaultdict
+import plot_defaults
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-o', '--out',
@@ -76,18 +80,20 @@ for n in sorted(data.keys()):
     plot_quido.append((n, quido))
     plot_bdp.append((n, bdp))
 
+PHI=1.618
+fig = plt.figure(figsize=(8, 8/PHI))
 plt.plot(first(plot_quido), second(plot_quido), lw=2, label="RTT*C/$\sqrt{n}$")
 
 # Should you want the BDP plot
-plt.plot(first(plot_bdp), second(plot_bdp), lw=2, label="RTT*C")
+#plt.plot(first(plot_bdp), second(plot_bdp), lw=2, label="RTT*C")
 
 # Plot results from Neda's experiment
 parse_nedata2('nedata2.txt')
 median_yneda = []
 keys = list(sorted(nedata.keys()))
 for k in keys:
-    median_yneda.append(median(nedata[k]))
-plt.plot(keys, median_yneda, lw=2, label="Hardware-Median",
+    median_yneda.append(avg(nedata[k]))
+plt.plot(keys, median_yneda, lw=2, label="Hardware",
          color="black", ls='--', marker='d', markersize=10)
 
 
@@ -113,12 +119,13 @@ for k in keys:
 plt.plot(keys, avg_mn, lw=2, label="Mininet", color="red", marker='s', markersize=10)
 
 #plt.xscale('log')
-#plt.yscale('log')
+plt.yscale('log')
 
 plt.xlim((0, nflows))
 plt.legend()
 plt.ylabel("Queue size (KB)")
 plt.xlabel("Total #flows")
+plt.grid(True)
 
 if args.out:
     print "Saving to %s" % args.out
