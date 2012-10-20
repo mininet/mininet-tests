@@ -9,13 +9,16 @@ import os
 import re
 import math
 from subprocess import check_output
+import sys
+
+sys.path.append('..')
 
 import matplotlib.pyplot as plt
-from mininet.test.microbenchmarks.CPUIsolationLib import intListCallback
-from mininet.test.nsdi.plot import colorGenerator
-from mininet.test.nsdi.linktests.helper import avg, stdev
+from cpuiso.CPUIsolationLib import intListCallback
+from util.plot import colorGenerator
+from lib.helper import avg, stdev
 from mininet.util import quietRun
-import mininet.test.microbenchmarks.plot_defaults
+import util.plot_defaults
 
 def sh( cmd ):
     return check_output(cmd, shell=True)
@@ -64,9 +67,9 @@ def plot( label, fname, sym='+-' ):
     
 if __name__ == '__main__':
     startplot()
-    plot('mininet', 'emulab-rhone-1p-none-None-None.out', 'o-')
+    plot('Mininet', 'good/emulab-rhone-1p-none-None-None.out', 'o-')
     #plot('mininet+cpu', 'emulab-rhone-1p-cfs-0.09-None.out')
     #plot('mininet+bw', 'emulab-rhone-1p-none-None-200.out')
-    plot('v-emulab', 'test-6.out', 'v-')
-    plot('mininet-hifi', 'emulab-rhone-1p-cfs-0.09-200.out', 's--')
+    plot('vEmulab', 'good/test-6.out', 'v-')
+    plot('"ideal"', 'good/emulab-rhone-1p-cfs-0.09-200.out', 's--')
     finishplot()
