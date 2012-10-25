@@ -78,11 +78,13 @@ if args.ccdf:
 else:
     plt.legend(loc="lower right")
 
-plt.xlabel("Percentage deviation from expected", fontsize='large')
+#plt.xlabel("Percentage deviation from expected", fontsize='large')
+plt.xlabel("Percentage deviation from expected")
 plt.ylabel("Fraction")
 plt.title(args.title)
 plt.xscale("log")
 plt.ylim((0, 1))
+plt.gcf().subplots_adjust(bottom=0.2)
 
 if args.log:
     plt.yscale('log')
