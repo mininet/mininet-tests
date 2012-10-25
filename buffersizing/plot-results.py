@@ -106,7 +106,7 @@ for i in xrange(nruns):
         break
 
     if i == 0:
-        label = "Mininet"
+        label = "Mininet-HiFi"
     else:
         label = ''
     plt.plot(keys, values,
@@ -116,7 +116,7 @@ avg_mn = []
 for k in keys:
     avg_mn.append(avg(data[k]))
 
-plt.plot(keys, avg_mn, lw=2, label="Mininet", color="red", marker='s', markersize=10)
+plt.plot(keys, avg_mn, lw=2, label="Mininet-HiFi", color="red", marker='s', markersize=10)
 
 #plt.xscale('log')
 plt.yscale('log')
