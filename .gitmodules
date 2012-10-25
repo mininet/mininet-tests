@@ -1,6 +1,6 @@
 [submodule "util"]
 	path = util
-	url = git@bitbucket.org:nikhilh/cs244-12-util.git
+	url = git@github.com:mininet/mininet-util.git
 [submodule "tracing"]
 	path = tracing
-	url = git@bitbucket.org:jvimal/mininet-tracing.git
+	url = git@github.com:mininet/mininet-tracing.git
