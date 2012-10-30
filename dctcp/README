@@ -1,5 +1,13 @@
 Instructions to reproduce the DCTCP experiment:
 
+To run the dctcp experiments, just invoke
+	./run-dctcp.sh
+
+To compile a DCTCP enabled kernel, check instructions below.
+It has instructions to compile a 3.0 and 3.2 kernel.
+
+The graphs in the Mininet-HiFi paper were generated using a patched 3.0 kernel.
+
 Dependencies:
 - Ubuntu 12.04 with the DCTCP kernel (instructions to install the DCTCP kernel follow)
 - Latest Mininet code (git://github.com/mininet/mininet.git, cs244 branch)
