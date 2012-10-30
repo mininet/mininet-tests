@@ -8,6 +8,12 @@ from util.helper import *
 import glob
 from collections import defaultdict
 import plot_defaults
+from matplotlib import rc, rcParams
+
+# Adjust just for this graph
+rcParams['figure.subplot.bottom'] = 0.20
+rcParams['figure.subplot.left'] = 0.20
+rcParams['text.usetex'] = True
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-o', '--out',
@@ -123,9 +129,15 @@ plt.yscale('log')
 
 plt.xlim((0, nflows))
 plt.legend()
-plt.ylabel("Queue size (KB)")
-plt.xlabel("Total #flows")
+plt.ylabel("Queue size")
+plt.xlabel("Total \#flows (n)")
 plt.grid(True)
+xticks = range(0, 801, 100)
+plt.xticks(xticks, map(str, xticks))
+
+yticks = [1, 10, 100, 1000]
+yticklabels = ['1kB', '10kB', '100kB', '1MB']
+plt.yticks(yticks, yticklabels)
 
 if args.out:
     print "Saving to %s" % args.out
