@@ -1,6 +1,7 @@
 #!/bin/bash
 
 bws="100 1000"
+bws="100"
 t=20
 n=3
 maxq=425

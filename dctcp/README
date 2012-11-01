@@ -1,7 +1,17 @@
 Instructions to reproduce the DCTCP experiment:
 
-To run the dctcp experiments, just invoke
+To run the dctcp experiments:
 	./run-dctcp.sh
+
+Note that you may need to enable TCP, ECN, and/or DCTCP experiments.  Check first.
+
+To run the dctcp experiments with tracing, verify that tracing runs (see tracing/README), then run:
+	./run-dctcp-tracing.sh
+
+Once the experiment has completed, to generate tracing graphs for it, run:
+	./gengraph-n.sh
+
+Again, note that you may need to customize this script for file locations and specific experiment types (TCP, ECN, DCTCP).
 
 To compile a DCTCP enabled kernel, check instructions below.
 It has instructions to compile a 3.0 and 3.2 kernel.
