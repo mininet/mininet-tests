@@ -52,7 +52,8 @@ args = parser.parse_args()
 PHI=1.618
 fig = plt.figure(figsize=(8, 8/PHI))
 
-LINESTYLES=['-','--','-.']
+# Make this longer if using lots of lines.
+LINESTYLES=['-','--','-.'] * 10
 
 if args.ccdf:
     args.title = args.title.replace("CDF", "CCDF")
