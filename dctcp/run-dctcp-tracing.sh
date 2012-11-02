@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #bws="10 100 1000"
-bws="10 20 40 80 160 320 640"
-#bws="10 20"
+bws="10 20 40 80 160 320 640 1280"
+#bws="1280"
 t=20
 n=3
 maxq=425
@@ -15,10 +15,13 @@ if [ "$UID" != "0" ]; then
     exit 0
 fi
 
+echo "Setting to one core:"
+../tracing/example/mod-cores.sh 1
 
 finish() {
     # Re-enable all cores
-    ../tracing/example/mod-cores.sh
+    # TEMP
+    #../tracing/example/mod-cores.sh
 
     # Clean up
     killall -9 python iperf

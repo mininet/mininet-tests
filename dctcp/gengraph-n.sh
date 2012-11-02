@@ -10,6 +10,7 @@ set -o nounset
 # Please modify to pass in the right files.
 
 bws="10 20 40 80 160 320 640 1280"
+#bws="1280"
 odir=plots
 # for data on nf-build2_bw:
 #iface=sw0-eth1
